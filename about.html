@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Tuition Point Education Center</title>
+  <meta name="description" content="Learn about Tuition Point Education Center's mission, vision, and our commitment to providing personalized education in Al Wakra, Qatar.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=32&h=32&q=80">
+  
+  <!-- Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-surface">
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 bg-white bg-opacity-90 backdrop-blur-glass z-40 shadow-soft">
+    <div class="container py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center space-x-2">
+        <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white">
+          <span class="font-display font-bold text-lg">TP</span>
+        </div>
+        <div>
+          <span class="font-display font-bold text-primary text-lg">Tuition Point</span>
+        </div>
+      </a>
+      
+      <!-- Desktop Menu -->
+      <nav class="hidden md:flex items-center space-x-8">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="team.html" class="nav-link">Our Team</a>
+        <a href="achievements.html" class="nav-link">Success Stories</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="enrollment.html" class="btn btn-primary">Enroll Now</a>
+      </nav>
+      
+      <!-- Mobile Menu Button -->
+      <button id="menu-toggle" class="md:hidden text-primary" aria-label="Open Menu">
+        <i data-feather="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+  </header>
+  
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="mobile-menu hidden">
+    <div class="container h-full flex flex-col py-8">
+      <div class="flex justify-between items-center mb-12">
+        <a href="index.html" class="flex items-center space-x-2">
+          <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white">
+            <span class="font-display font-bold text-lg">TP</span>
+          </div>
+          <span class="font-display font-bold text-primary text-lg">Tuition Point</span>
+        </a>
+        <button id="close-menu" aria-label="Close Menu">
+          <i data-feather="x" class="w-6 h-6 text-primary"></i>
+        </button>
+      </div>
+      <nav class="flex flex-col space-y-6 text-xl">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="team.html" class="nav-link">Our Team</a>
+        <a href="achievements.html" class="nav-link">Success Stories</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="enrollment.html" class="btn btn-primary w-full text-center mt-4">Enroll Now</a>
+      </nav>
+    </div>
+  </div>
+  
+  <!-- Page Header -->
+  <section class="pt-32 pb-12 md:pt-40 md:pb-16 bg-light">
+    <div class="container">
+      <div class="text-center max-w-3xl mx-auto">
+        <h1 class="font-display text-4xl md:text-5xl font-bold mb-6 animate-slide-up">About Tuition Point</h1>
+        <p class="text-lg text-muted animate-slide-up stagger-1">Discover our story, values, and commitment to educational excellence.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About Us Section -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <div class="relative">
+            <div class="absolute -top-10 -left-10 w-64 h-64 bg-accent bg-opacity-10 rounded-full filter blur-3xl z-0"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1200&q=80" 
+              alt="Tuition Point Education Center" 
+              class="w-full h-auto rounded-2xl shadow-medium relative z-10 animate-fade-in"
+            >
+            <div class="absolute -bottom-4 -right-4 w-32 h-32 bg-accent rounded-2xl opacity-10 z-0"></div>
+          </div>
+        </div>
+        <div class="animate-slide-up">
+          <span class="header-badge">Licensed Education Center</span>
+          <h2 class="text-3xl md:text-4xl font-display font-bold mb-6">Our Journey of Educational Excellence</h2>
+          <p class="text-muted mb-6">
+            Tuition Point Education Center was established with a vision to provide personalized, high-quality education to students in Qatar. We believe that every student has unique potential that can be unlocked with the right guidance and support.
+          </p>
+          <p class="text-muted mb-6">
+            Our center has grown to become a trusted name in education, serving students from kindergarten to grade 12 across various curricula. We take pride in our comprehensive approach that addresses not just academic excellence, but also character development and lifelong learning skills.
+          </p>
+          <div class="flex items-center">
+            <div class="w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center mr-4">
+              <i data-feather="check" class="w-6 h-6"></i>
+            </div>
+            <p class="font-medium">Licensed by the Ministry of Education & Higher Education in Qatar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Mission & Vision -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="glass-card animate-slide-up">
+          <div class="w-14 h-14 bg-accent bg-opacity-20 rounded-full flex items-center justify-center mb-6">
+            <i data-feather="target" class="w-6 h-6 text-accent"></i>
+          </div>
+          <h3 class="text-2xl font-display font-bold mb-4">Our Mission</h3>
+          <p class="text-muted">
+            Our mission is to empower students with the knowledge, skills, and confidence necessary to succeed academically and beyond. We are committed to providing personalized education that addresses each student's unique learning style, strengths, and areas for growth.
+          </p>
+          <p class="text-muted mt-4">
+            We strive to create an environment where learning is engaging, relevant, and enjoyable, fostering a lifelong love for education and personal development.
+          </p>
+        </div>
+        
+        <div class="glass-card animate-slide-up stagger-1">
+          <div class="w-14 h-14 bg-accent bg-opacity-20 rounded-full flex items-center justify-center mb-6">
+            <i data-feather="eye" class="w-6 h-6 text-accent"></i>
+          </div>
+          <h3 class="text-2xl font-display font-bold mb-4">Our Vision</h3>
+          <p class="text-muted">
+            Our vision is to be a leading educational center that transforms lives through education. We envision a future where all our students excel academically, think critically, act ethically, and contribute positively to society.
+          </p>
+          <p class="text-muted mt-4">
+            We aim to set new standards in personalized education by blending traditional teaching methods with innovative approaches, creating a model that inspires educational institutions worldwide.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Teaching Philosophy -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center max-w-3xl mx-auto mb-16 animate-slide-up">
+        <h2 class="section-title">Our Teaching Philosophy</h2>
+        <p class="section-subtitle">We believe in a holistic approach to education that nurtures both academic excellence and personal growth.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="card animate-slide-up stagger-1">
+          <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+            <i data-feather="user" class="w-6 h-6 text-accent"></i>
+          </div>
+          <h3 class="text-xl font-display font-bold mb-3">Student-Centered Learning</h3>
+          <p class="text-muted">We place students at the center of the learning process, tailoring our teaching methods to match their individual learning styles and needs.</p>
+        </div>
+        
+        <div class="card animate-slide-up stagger-2">
+          <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+            <i data-feather="refresh-cw" class="w-6 h-6 text-accent"></i>
+          </div>
+          <h3 class="text-xl font-display font-bold mb-3">Continuous Improvement</h3>
+          <p class="text-muted">We believe in the power of continuous assessment and feedback, allowing us to refine our approaches and help students build on their progress.</p>
+        </div>
+        
+        <div class="card animate-slide-up stagger-3">
+          <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+            <i data-feather="compass" class="w-6 h-6 text-accent"></i>
+          </div>
+          <h3 class="text-xl font-display font-bold mb-3">Holistic Development</h3>
+          <p class="text-muted">We focus not just on academic knowledge, but also on developing critical thinking, problem-solving abilities, and strong ethical values.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Why Choose Us -->
+  <section class="section bg-accent text-white">
+    <div class="container">
+      <div class="text-center max-w-3xl mx-auto mb-16 animate-slide-up">
+        <h2 class="text-3xl md:text-4xl font-display font-bold mb-6">Why Parents & Students Choose Us</h2>
+        <p class="text-lg text-white text-opacity-90">Our commitment to excellence and student success sets us apart.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="text-center animate-slide-up stagger-1">
+          <div class="w-16 h-16 rounded-full bg-white bg-opacity-10 flex items-center justify-center mx-auto mb-6">
+            <i data-feather="users" class="w-8 h-8"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3">Experienced Teachers</h3>
+          <p class="text-white text-opacity-80">Qualified educators with extensive experience and passion for teaching.</p>
+        </div>
+        
+        <div class="text-center animate-slide-up stagger-2">
+          <div class="w-16 h-16 rounded-full bg-white bg-opacity-10 flex items-center justify-center mx-auto mb-6">
+            <i data-feather="award" class="w-8 h-8"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3">Proven Results</h3>
+          <p class="text-white text-opacity-80">Track record of student success across multiple curricula and exams.</p>
+        </div>
+        
+        <div class="text-center animate-slide-up stagger-3">
+          <div class="w-16 h-16 rounded-full bg-white bg-opacity-10 flex items-center justify-center mx-auto mb-6">
+            <i data-feather="layout" class="w-8 h-8"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3">Modern Facilities</h3>
+          <p class="text-white text-opacity-80">Comfortable, well-equipped learning environment that enhances focus.</p>
+        </div>
+        
+        <div class="text-center animate-slide-up stagger-4">
+          <div class="w-16 h-16 rounded-full bg-white bg-opacity-10 flex items-center justify-center mx-auto mb-6">
+            <i data-feather="message-circle" class="w-8 h-8"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3">Regular Communication</h3>
+          <p class="text-white text-opacity-80">Open channels with parents to ensure alignment in educational goals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Accreditation -->
+  <section class="section">
+    <div class="container">
+      <div class="glass-card max-w-5xl mx-auto">
+        <div class="flex flex-col md:flex-row items-center gap-8">
+          <div class="flex-shrink-0">
+            <div class="w-24 h-24 bg-accent bg-opacity-10 rounded-full flex items-center justify-center">
+              <i data-feather="shield" class="w-12 h-12 text-accent"></i>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-2xl font-display font-bold mb-3">Officially Licensed & Recognized</h3>
+            <p class="text-muted">
+              Tuition Point Education Center is officially licensed by the Ministry of Education & Higher Education in Qatar. Our programs adhere to the highest educational standards, and our curriculum is designed to align with various international educational frameworks including CBSE, IGCSE, IB, Federal Board, and Bangladesh Board.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- CTA Section -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-display font-bold mb-6 animate-slide-up">Ready to Join Our Educational Community?</h2>
+        <p class="text-lg text-muted mb-8 animate-slide-up stagger-1">Take the first step toward academic excellence with Tuition Point Education Center.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up stagger-2">
+          <a href="enrollment.html" class="btn btn-primary">
+            Enroll Today
+          </a>
+          <a href="contact.html" class="btn btn-secondary">
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-primary text-white py-16">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center space-x-2 mb-6">
+            <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-primary">
+              <span class="font-display font-bold text-lg">TP</span>
+            </div>
+            <span class="font-display font-bold text-white text-lg">Tuition Point</span>
+          </div>
+          <p class="text-white text-opacity-80 mb-6">
+            Empowering students from kindergarten to grade 12 with personalized education and expert guidance.
+          </p>
+          <div class="flex space-x-4">
+            <a href="#" class="w-10 h-10 rounded-full border border-white border-opacity-20 flex items-center justify-center text-white hover:bg-white hover:bg-opacity-10 transition-colors">
+              <i data-feather="facebook" class="w-4 h-4"></i>
+            </a>
+            <a href="#" class="w-10 h-10 rounded-full border border-white border-opacity-20 flex items-center justify-center text-white hover:bg-white hover:bg-opacity-10 transition-colors">
+              <i data-feather="instagram" class="w-4 h-4"></i>
+            </a>
+            <a href="#" class="w-10 h-10 rounded-full border border-white border-opacity-20 flex items-center justify-center text-white hover:bg-white hover:bg-opacity-10 transition-colors">
+              <i data-feather="twitter" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h3 class="text-lg font-display font-bold mb-6">Quick Links</h3>
+          <ul class="space-y-4">
+            <li><a href="index.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Home</a></li>
+            <li><a href="about.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">About Us</a></li>
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Services</a></li>
+            <li><a href="team.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Our Team</a></li>
+            <li><a href="enrollment.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Enrollment</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-lg font-display font-bold mb-6">Programs</h3>
+          <ul class="space-y-4">
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Core Subjects</a></li>
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Specialized Programs</a></li>
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Summer Courses</a></li>
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Entrance Test Prep</a></li>
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Homework Help</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-lg font-display font-bold mb-6">Contact Us</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <i data-feather="map-pin" class="w-5 h-5 mr-3 mt-0.5 text-white text-opacity-80"></i>
+              <span class="text-white text-opacity-80">Villa No. 99, Street - 201, Zone - 90, Al Wakra, Qatar</span>
+            </li>
+            <li class="flex items-start">
+              <i data-feather="phone" class="w-5 h-5 mr-3 mt-0.5 text-white text-opacity-80"></i>
+              <span class="text-white text-opacity-80">+974 3015 8401</span>
+            </li>
+            <li class="flex items-start">
+              <i data-feather="mail" class="w-5 h-5 mr-3 mt-0.5 text-white text-opacity-80"></i>
+              <span class="text-white text-opacity-80">tuitionwakra@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="border-t border-white border-opacity-10 mt-12 pt-8 text-center">
+        <p class="text-white text-opacity-60 text-sm">
+          © 2024 Tuition Point Education Center. All rights reserved. Licensed by the Ministry of Education & Higher Education.
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="main.js"></script>
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>
