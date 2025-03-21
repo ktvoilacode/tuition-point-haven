@@ -1,0 +1,433 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parent & Student Support | Tuition Point Education Center</title>
+  <meta name="description" content="Learn about the parent involvement programs and student support services offered at Tuition Point Education Center in Al Wakra, Qatar.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=32&h=32&q=80">
+  
+  <!-- Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-surface">
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 bg-white bg-opacity-90 backdrop-blur-glass z-40 shadow-soft">
+    <div class="container py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center space-x-2">
+        <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white">
+          <span class="font-display font-bold text-lg">TP</span>
+        </div>
+        <div>
+          <span class="font-display font-bold text-primary text-lg">Tuition Point</span>
+        </div>
+      </a>
+      
+      <!-- Desktop Menu -->
+      <nav class="hidden md:flex items-center space-x-8">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="team.html" class="nav-link">Our Team</a>
+        <a href="achievements.html" class="nav-link">Success Stories</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="enrollment.html" class="btn btn-primary">Enroll Now</a>
+      </nav>
+      
+      <!-- Mobile Menu Button -->
+      <button id="menu-toggle" class="md:hidden text-primary" aria-label="Open Menu">
+        <i data-feather="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+  </header>
+  
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="mobile-menu hidden">
+    <div class="container h-full flex flex-col py-8">
+      <div class="flex justify-between items-center mb-12">
+        <a href="index.html" class="flex items-center space-x-2">
+          <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white">
+            <span class="font-display font-bold text-lg">TP</span>
+          </div>
+          <span class="font-display font-bold text-primary text-lg">Tuition Point</span>
+        </a>
+        <button id="close-menu" aria-label="Close Menu">
+          <i data-feather="x" class="w-6 h-6 text-primary"></i>
+        </button>
+      </div>
+      <nav class="flex flex-col space-y-6 text-xl">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="team.html" class="nav-link">Our Team</a>
+        <a href="achievements.html" class="nav-link">Success Stories</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="enrollment.html" class="btn btn-primary w-full text-center mt-4">Enroll Now</a>
+      </nav>
+    </div>
+  </div>
+  
+  <!-- Page Header -->
+  <section class="pt-32 pb-12 md:pt-40 md:pb-16 bg-light">
+    <div class="container">
+      <div class="text-center max-w-3xl mx-auto">
+        <h1 class="font-display text-4xl md:text-5xl font-bold mb-6 animate-slide-up">Parent & Student Support</h1>
+        <p class="text-lg text-muted animate-slide-up stagger-1">We believe in a collaborative approach to education, involving parents as partners in the learning journey.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Parent Involvement -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center max-w-3xl mx-auto mb-16 animate-slide-up">
+        <h2 class="section-title">Parent Involvement</h2>
+        <p class="section-subtitle">We encourage and facilitate active parent participation in their child's educational journey.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="animate-slide-up order-2 lg:order-1">
+          <div class="space-y-8">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 bg-accent bg-opacity-10 rounded-full flex items-center justify-center flex-shrink-0">
+                <i data-feather="calendar" class="w-6 h-6 text-accent"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-display font-bold mb-2">Regular Updates</h3>
+                <p class="text-muted">
+                  We provide weekly progress reports and regular updates through our parent portal, keeping you informed about your child's academic development.
+                </p>
+              </div>
+            </div>
+            
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 bg-accent bg-opacity-10 rounded-full flex items-center justify-center flex-shrink-0">
+                <i data-feather="users" class="w-6 h-6 text-accent"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-display font-bold mb-2">Parent-Teacher Meetings</h3>
+                <p class="text-muted">
+                  We schedule regular in-person and virtual parent-teacher meetings to discuss student progress, address concerns, and collaborate on learning goals.
+                </p>
+              </div>
+            </div>
+            
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 bg-accent bg-opacity-10 rounded-full flex items-center justify-center flex-shrink-0">
+                <i data-feather="book-open" class="w-6 h-6 text-accent"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-display font-bold mb-2">Parent Workshops</h3>
+                <p class="text-muted">
+                  We organize workshops on topics such as supporting your child's learning at home, understanding curriculum requirements, and navigating educational challenges.
+                </p>
+              </div>
+            </div>
+            
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 bg-accent bg-opacity-10 rounded-full flex items-center justify-center flex-shrink-0">
+                <i data-feather="message-square" class="w-6 h-6 text-accent"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-display font-bold mb-2">Open Communication</h3>
+                <p class="text-muted">
+                  We maintain open channels of communication through email, phone, and our dedicated parent communication app for quick responses to questions or concerns.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="relative order-1 lg:order-2 animate-slide-up stagger-1">
+          <div class="absolute -top-10 -right-10 w-64 h-64 bg-accent bg-opacity-10 rounded-full filter blur-3xl z-0"></div>
+          <img 
+            src="https://images.unsplash.com/photo-1491308056676-205b7c9a7dc1?auto=format&fit=crop&w=1200&q=80" 
+            alt="Parent and teacher meeting at Tuition Point" 
+            class="w-full h-auto rounded-2xl shadow-medium relative z-10"
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Student Support -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="text-center max-w-3xl mx-auto mb-16 animate-slide-up">
+        <h2 class="section-title">Student Support Services</h2>
+        <p class="section-subtitle">Beyond academic tutoring, we offer comprehensive support to help students thrive.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="glass-card animate-slide-up stagger-1">
+          <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+            <i data-feather="heart" class="w-6 h-6 text-accent"></i>
+          </div>
+          <h3 class="text-xl font-display font-bold mb-3">Academic Counseling</h3>
+          <p class="text-muted">
+            Our experienced counselors provide guidance on course selection, exam preparation strategies, and future academic planning, helping students make informed decisions about their educational path.
+          </p>
+        </div>
+        
+        <div class="glass-card animate-slide-up stagger-2">
+          <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+            <i data-feather="clipboard" class="w-6 h-6 text-accent"></i>
+          </div>
+          <h3 class="text-xl font-display font-bold mb-3">Study Skills Workshops</h3>
+          <p class="text-muted">
+            We conduct regular workshops on effective note-taking, time management, exam preparation, and other essential study skills that help students become more efficient and confident learners.
+          </p>
+        </div>
+        
+        <div class="glass-card animate-slide-up stagger-3">
+          <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+            <i data-feather="trending-up" class="w-6 h-6 text-accent"></i>
+          </div>
+          <h3 class="text-xl font-display font-bold mb-3">Progress Monitoring</h3>
+          <p class="text-muted">
+            We use data-driven approaches to track student progress, identify areas for improvement, and adjust learning plans accordingly, ensuring continuous growth and development.
+          </p>
+        </div>
+        
+        <div class="glass-card animate-slide-up stagger-1">
+          <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+            <i data-feather="shield" class="w-6 h-6 text-accent"></i>
+          </div>
+          <h3 class="text-xl font-display font-bold mb-3">Mental Wellbeing</h3>
+          <p class="text-muted">
+            We recognize the importance of mental health in academic success and provide resources and support to help students manage stress, build resilience, and maintain a healthy balance.
+          </p>
+        </div>
+        
+        <div class="glass-card animate-slide-up stagger-2">
+          <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+            <i data-feather="users" class="w-6 h-6 text-accent"></i>
+          </div>
+          <h3 class="text-xl font-display font-bold mb-3">Peer Learning Groups</h3>
+          <p class="text-muted">
+            We facilitate collaborative learning opportunities where students can work together, share knowledge, and develop important social and communication skills while reinforcing their understanding.
+          </p>
+        </div>
+        
+        <div class="glass-card animate-slide-up stagger-3">
+          <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+            <i data-feather="award" class="w-6 h-6 text-accent"></i>
+          </div>
+          <h3 class="text-xl font-display font-bold mb-3">Recognition & Rewards</h3>
+          <p class="text-muted">
+            We celebrate student achievements through our recognition program, acknowledging not just academic excellence but also effort, improvement, and character development.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Testimonials -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center max-w-3xl mx-auto mb-16 animate-slide-up">
+        <h2 class="section-title">What Parents Say</h2>
+        <p class="section-subtitle">Hear from parents about our supportive approach to education.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="card review-card animate-slide-up stagger-1">
+          <div class="flex items-center mb-4">
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+          </div>
+          <p class="text-muted mb-6">"The parent-teacher meetings at Tuition Point have been invaluable. The teachers take time to explain my child's progress in detail and offer practical suggestions for how we can support learning at home."</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
+              <span class="font-medium">RP</span>
+            </div>
+            <div>
+              <h4 class="font-medium">Reshma Patel</h4>
+              <p class="text-sm text-muted">Parent of Grade 8 Student</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card review-card animate-slide-up stagger-2">
+          <div class="flex items-center mb-4">
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+          </div>
+          <p class="text-muted mb-6">"I appreciate how the Tuition Point team involves parents in the educational process. The weekly progress reports help me stay informed, and the parent workshops have given me valuable tools to support my son's learning."</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
+              <span class="font-medium">AM</span>
+            </div>
+            <div>
+              <h4 class="font-medium">Ahmed Mohamed</h4>
+              <p class="text-sm text-muted">Parent of Grade 5 Student</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- FAQ -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="text-center max-w-3xl mx-auto mb-16 animate-slide-up">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Common questions about our parent and student support services.</p>
+      </div>
+      
+      <div class="max-w-3xl mx-auto space-y-6 animate-slide-up">
+        <div class="glass-card">
+          <h3 class="text-xl font-display font-bold mb-3">How often are parent-teacher meetings held?</h3>
+          <p class="text-muted">
+            We schedule formal parent-teacher meetings once every term (three times per academic year). However, parents can request additional meetings at any time based on their child's needs or concerns.
+          </p>
+        </div>
+        
+        <div class="glass-card">
+          <h3 class="text-xl font-display font-bold mb-3">How can I stay updated on my child's progress?</h3>
+          <p class="text-muted">
+            We provide weekly progress updates through our parent portal and communication app. These updates include information about attendance, topics covered, homework completion, test results, and teacher observations.
+          </p>
+        </div>
+        
+        <div class="glass-card">
+          <h3 class="text-xl font-display font-bold mb-3">What should I do if my child is struggling with a particular subject?</h3>
+          <p class="text-muted">
+            Contact your child's tutor or our center coordinator immediately. We can arrange a meeting to discuss the challenges, adjust the learning plan, provide additional support, or recommend specialized resources as needed.
+          </p>
+        </div>
+        
+        <div class="glass-card">
+          <h3 class="text-xl font-display font-bold mb-3">Are there resources for parents to help with learning at home?</h3>
+          <p class="text-muted">
+            Yes, we provide parents with resource guides, recommended practice materials, and access to our digital learning platform. We also conduct workshops specifically focused on supporting learning at home.
+          </p>
+        </div>
+        
+        <div class="glass-card">
+          <h3 class="text-xl font-display font-bold mb-3">How do you help students manage academic stress?</h3>
+          <p class="text-muted">
+            We incorporate stress management techniques in our teaching approach, provide counseling support when needed, and conduct workshops on time management and study skills. We also work closely with parents to ensure a balanced approach to academic expectations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- CTA -->
+  <section class="section bg-accent text-white">
+    <div class="container">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-display font-bold mb-6 animate-slide-up">We're Here to Support Your Family</h2>
+        <p class="text-lg mb-8 text-white text-opacity-90 animate-slide-up stagger-1">
+          Partner with Tuition Point for comprehensive academic support for your child.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up stagger-2">
+          <a href="enrollment.html" class="btn bg-white text-accent hover:bg-opacity-90">
+            Enroll Today
+          </a>
+          <a href="contact.html" class="btn border border-white text-white hover:bg-white hover:bg-opacity-10">
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-primary text-white py-16">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center space-x-2 mb-6">
+            <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-primary">
+              <span class="font-display font-bold text-lg">TP</span>
+            </div>
+            <span class="font-display font-bold text-white text-lg">Tuition Point</span>
+          </div>
+          <p class="text-white text-opacity-80 mb-6">
+            Empowering students from kindergarten to grade 12 with personalized education and expert guidance.
+          </p>
+          <div class="flex space-x-4">
+            <a href="#" class="w-10 h-10 rounded-full border border-white border-opacity-20 flex items-center justify-center text-white hover:bg-white hover:bg-opacity-10 transition-colors">
+              <i data-feather="facebook" class="w-4 h-4"></i>
+            </a>
+            <a href="#" class="w-10 h-10 rounded-full border border-white border-opacity-20 flex items-center justify-center text-white hover:bg-white hover:bg-opacity-10 transition-colors">
+              <i data-feather="instagram" class="w-4 h-4"></i>
+            </a>
+            <a href="#" class="w-10 h-10 rounded-full border border-white border-opacity-20 flex items-center justify-center text-white hover:bg-white hover:bg-opacity-10 transition-colors">
+              <i data-feather="twitter" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h3 class="text-lg font-display font-bold mb-6">Quick Links</h3>
+          <ul class="space-y-4">
+            <li><a href="index.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Home</a></li>
+            <li><a href="about.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">About Us</a></li>
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Services</a></li>
+            <li><a href="team.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Our Team</a></li>
+            <li><a href="enrollment.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Enrollment</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-lg font-display font-bold mb-6">Programs</h3>
+          <ul class="space-y-4">
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Core Subjects</a></li>
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Specialized Programs</a></li>
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Summer Courses</a></li>
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Entrance Test Prep</a></li>
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Homework Help</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-lg font-display font-bold mb-6">Contact Us</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <i data-feather="map-pin" class="w-5 h-5 mr-3 mt-0.5 text-white text-opacity-80"></i>
+              <span class="text-white text-opacity-80">Villa No. 99, Street - 201, Zone - 90, Al Wakra, Qatar</span>
+            </li>
+            <li class="flex items-start">
+              <i data-feather="phone" class="w-5 h-5 mr-3 mt-0.5 text-white text-opacity-80"></i>
+              <span class="text-white text-opacity-80">+974 3015 8401</span>
+            </li>
+            <li class="flex items-start">
+              <i data-feather="mail" class="w-5 h-5 mr-3 mt-0.5 text-white text-opacity-80"></i>
+              <span class="text-white text-opacity-80">tuitionwakra@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="border-t border-white border-opacity-10 mt-12 pt-8 text-center">
+        <p class="text-white text-opacity-60 text-sm">
+          © 2024 Tuition Point Education Center. All rights reserved. Licensed by the Ministry of Education & Higher Education.
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="main.js"></script>
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>

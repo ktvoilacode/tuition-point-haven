@@ -1,0 +1,501 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews | Tuition Point Education Center</title>
+  <meta name="description" content="Read testimonials and reviews from parents and students about their experience with Tuition Point Education Center in Al Wakra, Qatar.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=32&h=32&q=80">
+  
+  <!-- Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-surface">
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 bg-white bg-opacity-90 backdrop-blur-glass z-40 shadow-soft">
+    <div class="container py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center space-x-2">
+        <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white">
+          <span class="font-display font-bold text-lg">TP</span>
+        </div>
+        <div>
+          <span class="font-display font-bold text-primary text-lg">Tuition Point</span>
+        </div>
+      </a>
+      
+      <!-- Desktop Menu -->
+      <nav class="hidden md:flex items-center space-x-8">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="team.html" class="nav-link">Our Team</a>
+        <a href="achievements.html" class="nav-link">Success Stories</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="enrollment.html" class="btn btn-primary">Enroll Now</a>
+      </nav>
+      
+      <!-- Mobile Menu Button -->
+      <button id="menu-toggle" class="md:hidden text-primary" aria-label="Open Menu">
+        <i data-feather="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+  </header>
+  
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="mobile-menu hidden">
+    <div class="container h-full flex flex-col py-8">
+      <div class="flex justify-between items-center mb-12">
+        <a href="index.html" class="flex items-center space-x-2">
+          <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white">
+            <span class="font-display font-bold text-lg">TP</span>
+          </div>
+          <span class="font-display font-bold text-primary text-lg">Tuition Point</span>
+        </a>
+        <button id="close-menu" aria-label="Close Menu">
+          <i data-feather="x" class="w-6 h-6 text-primary"></i>
+        </button>
+      </div>
+      <nav class="flex flex-col space-y-6 text-xl">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="team.html" class="nav-link">Our Team</a>
+        <a href="achievements.html" class="nav-link">Success Stories</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="enrollment.html" class="btn btn-primary w-full text-center mt-4">Enroll Now</a>
+      </nav>
+    </div>
+  </div>
+  
+  <!-- Page Header -->
+  <section class="pt-32 pb-12 md:pt-40 md:pb-16 bg-light">
+    <div class="container">
+      <div class="text-center max-w-3xl mx-auto">
+        <div class="flex items-center justify-center mb-4 animate-slide-up">
+          <i data-feather="star" class="w-5 h-5 text-accent fill-current"></i>
+          <i data-feather="star" class="w-5 h-5 text-accent fill-current"></i>
+          <i data-feather="star" class="w-5 h-5 text-accent fill-current"></i>
+          <i data-feather="star" class="w-5 h-5 text-accent fill-current"></i>
+          <i data-feather="star" class="w-5 h-5 text-accent fill-current"></i>
+          <span class="ml-2 text-lg font-medium">4.9/5</span>
+        </div>
+        <h1 class="font-display text-4xl md:text-5xl font-bold mb-6 animate-slide-up stagger-1">What Our Community Says</h1>
+        <p class="text-lg text-muted animate-slide-up stagger-2">Based on 42 reviews from our parent and student community.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Testimonials -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Review 1 -->
+        <div class="card review-card transform transition-all duration-300 animate-slide-up stagger-1">
+          <div class="flex items-center mb-4">
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+          </div>
+          <p class="text-muted mb-6">"I've seen remarkable improvement in my daughter's academic skills over just 3 months at Tuition Point. The teachers are supportive and motivating."</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
+              <span class="font-medium">PM</span>
+            </div>
+            <div>
+              <h4 class="font-medium">Ponnu Menu</h4>
+              <p class="text-sm text-muted">Parent</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Review 2 -->
+        <div class="card review-card transform transition-all duration-300 animate-slide-up stagger-2">
+          <div class="flex items-center mb-4">
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+          </div>
+          <p class="text-muted mb-6">"The worksheets and teaching methods at Tuition Point have really helped my child grasp difficult concepts. I'm very happy with their approach to education."</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
+              <span class="font-medium">AS</span>
+            </div>
+            <div>
+              <h4 class="font-medium">Aatha Sharma</h4>
+              <p class="text-sm text-muted">Parent</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Review 3 -->
+        <div class="card review-card transform transition-all duration-300 animate-slide-up stagger-3">
+          <div class="flex items-center mb-4">
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star-half" class="w-4 h-4 text-accent"></i>
+          </div>
+          <p class="text-muted mb-6">"Thanks to the coaching at Tuition Point, my kids gained admission to BPS. The teachers' dedication made all the difference in their preparation."</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
+              <span class="font-medium">KN</span>
+            </div>
+            <div>
+              <h4 class="font-medium">Kesavan Nagaraj</h4>
+              <p class="text-sm text-muted">Parent</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Review 4 -->
+        <div class="card review-card transform transition-all duration-300 animate-slide-up stagger-1">
+          <div class="flex items-center mb-4">
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+          </div>
+          <p class="text-muted mb-6">"The environment at Tuition Point is perfect for my sons. They're more engaged in learning than ever before, and I'm seeing great results in their school performance."</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
+              <span class="font-medium">SH</span>
+            </div>
+            <div>
+              <h4 class="font-medium">SHREE 2642</h4>
+              <p class="text-sm text-muted">Parent</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Review 5 -->
+        <div class="card review-card transform transition-all duration-300 animate-slide-up stagger-2">
+          <div class="flex items-center mb-4">
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+          </div>
+          <p class="text-muted mb-6">"My daughter has been excelling in her studies thanks to the worksheets and assignments provided by Tuition Point. The teachers are extremely knowledgeable and supportive."</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
+              <span class="font-medium">SS</span>
+            </div>
+            <div>
+              <h4 class="font-medium">Sivakumar Siva</h4>
+              <p class="text-sm text-muted">Parent</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Review 6 -->
+        <div class="card review-card transform transition-all duration-300 animate-slide-up stagger-3">
+          <div class="flex items-center mb-4">
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+          </div>
+          <p class="text-muted mb-6">"As a parent, I've noticed significant improvement in my daughter's reading, writing, and math skills since she started at Tuition Point. The personalized attention makes all the difference."</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
+              <span class="font-medium">SP</span>
+            </div>
+            <div>
+              <h4 class="font-medium">Sikander Peer Mohamed</h4>
+              <p class="text-sm text-muted">Parent</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Review 7 -->
+        <div class="card review-card transform transition-all duration-300 animate-slide-up stagger-1">
+          <div class="flex items-center mb-4">
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+          </div>
+          <p class="text-muted mb-6">"The teachers at Tuition Point have a gift for making complex subjects understandable. My son's confidence in mathematics has grown tremendously since enrolling here."</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
+              <span class="font-medium">RK</span>
+            </div>
+            <div>
+              <h4 class="font-medium">Rajan Kumar</h4>
+              <p class="text-sm text-muted">Parent</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Review 8 -->
+        <div class="card review-card transform transition-all duration-300 animate-slide-up stagger-2">
+          <div class="flex items-center mb-4">
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star-half" class="w-4 h-4 text-accent"></i>
+          </div>
+          <p class="text-muted mb-6">"What I appreciate most about Tuition Point is how they communicate with parents. I always know what my daughter is working on and how I can support her learning at home."</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
+              <span class="font-medium">FS</span>
+            </div>
+            <div>
+              <h4 class="font-medium">Fatima Saleh</h4>
+              <p class="text-sm text-muted">Parent</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Review 9 -->
+        <div class="card review-card transform transition-all duration-300 animate-slide-up stagger-3">
+          <div class="flex items-center mb-4">
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+            <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
+          </div>
+          <p class="text-muted mb-6">"I'm a high school student who was struggling with physics and chemistry. After joining Tuition Point, these subjects have become my strongest areas. The teachers explain concepts so clearly."</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
+              <span class="font-medium">AR</span>
+            </div>
+            <div>
+              <h4 class="font-medium">Adil Rahman</h4>
+              <p class="text-sm text-muted">Student, Grade 11</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Load More Button -->
+      <div class="text-center mt-12">
+        <button class="btn btn-secondary animate-slide-up">
+          Load More Reviews
+        </button>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Video Testimonials -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="text-center max-w-3xl mx-auto mb-16 animate-slide-up">
+        <h2 class="section-title">Video Testimonials</h2>
+        <p class="section-subtitle">Hear directly from our students and parents about their experience.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Video 1 -->
+        <div class="card animate-slide-up stagger-1">
+          <div class="aspect-w-16 aspect-h-9 mb-4 rounded-lg overflow-hidden bg-gray-200">
+            <div class="flex items-center justify-center">
+              <i data-feather="play-circle" class="w-16 h-16 text-accent"></i>
+            </div>
+          </div>
+          <h3 class="text-xl font-display font-bold mb-2">Aisha's Journey</h3>
+          <p class="text-muted">From struggling with math to achieving top marks in class.</p>
+        </div>
+        
+        <!-- Video 2 -->
+        <div class="card animate-slide-up stagger-2">
+          <div class="aspect-w-16 aspect-h-9 mb-4 rounded-lg overflow-hidden bg-gray-200">
+            <div class="flex items-center justify-center">
+              <i data-feather="play-circle" class="w-16 h-16 text-accent"></i>
+            </div>
+          </div>
+          <h3 class="text-xl font-display font-bold mb-2">Parent Perspective</h3>
+          <p class="text-muted">A mother shares how Tuition Point transformed her son's attitude toward learning.</p>
+        </div>
+        
+        <!-- Video 3 -->
+        <div class="card animate-slide-up stagger-3">
+          <div class="aspect-w-16 aspect-h-9 mb-4 rounded-lg overflow-hidden bg-gray-200">
+            <div class="flex items-center justify-center">
+              <i data-feather="play-circle" class="w-16 h-16 text-accent"></i>
+            </div>
+          </div>
+          <h3 class="text-xl font-display font-bold mb-2">Success in Science</h3>
+          <p class="text-muted">How our specialized science programs prepare students for future success.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Write a Review -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center max-w-3xl mx-auto mb-16 animate-slide-up">
+        <h2 class="section-title">Share Your Experience</h2>
+        <p class="section-subtitle">We value your feedback. Let us know about your experience with Tuition Point.</p>
+      </div>
+      
+      <div class="max-w-2xl mx-auto">
+        <form class="card animate-slide-up">
+          <div class="mb-6">
+            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-accent focus:border-accent">
+          </div>
+          
+          <div class="mb-6">
+            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-accent focus:border-accent">
+          </div>
+          
+          <div class="mb-6">
+            <label class="block text-sm font-medium text-gray-700 mb-1">Your Rating</label>
+            <div class="flex items-center">
+              <button type="button" class="text-gray-300 hover:text-accent focus:text-accent">
+                <i data-feather="star" class="w-6 h-6"></i>
+              </button>
+              <button type="button" class="text-gray-300 hover:text-accent focus:text-accent">
+                <i data-feather="star" class="w-6 h-6"></i>
+              </button>
+              <button type="button" class="text-gray-300 hover:text-accent focus:text-accent">
+                <i data-feather="star" class="w-6 h-6"></i>
+              </button>
+              <button type="button" class="text-gray-300 hover:text-accent focus:text-accent">
+                <i data-feather="star" class="w-6 h-6"></i>
+              </button>
+              <button type="button" class="text-gray-300 hover:text-accent focus:text-accent">
+                <i data-feather="star" class="w-6 h-6"></i>
+              </button>
+            </div>
+          </div>
+          
+          <div class="mb-6">
+            <label for="review" class="block text-sm font-medium text-gray-700 mb-1">Your Review</label>
+            <textarea id="review" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-accent focus:border-accent"></textarea>
+          </div>
+          
+          <div>
+            <button type="submit" class="btn btn-primary">
+              Submit Review
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <!-- CTA -->
+  <section class="section bg-accent text-white">
+    <div class="container">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-display font-bold mb-6 animate-slide-up">Join Our Successful Students</h2>
+        <p class="text-lg mb-8 text-white text-opacity-90 animate-slide-up stagger-1">
+          Experience the quality education that our community is raving about.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up stagger-2">
+          <a href="enrollment.html" class="btn bg-white text-accent hover:bg-opacity-90">
+            Enroll Today
+          </a>
+          <a href="contact.html" class="btn border border-white text-white hover:bg-white hover:bg-opacity-10">
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-primary text-white py-16">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center space-x-2 mb-6">
+            <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-primary">
+              <span class="font-display font-bold text-lg">TP</span>
+            </div>
+            <span class="font-display font-bold text-white text-lg">Tuition Point</span>
+          </div>
+          <p class="text-white text-opacity-80 mb-6">
+            Empowering students from kindergarten to grade 12 with personalized education and expert guidance.
+          </p>
+          <div class="flex space-x-4">
+            <a href="#" class="w-10 h-10 rounded-full border border-white border-opacity-20 flex items-center justify-center text-white hover:bg-white hover:bg-opacity-10 transition-colors">
+              <i data-feather="facebook" class="w-4 h-4"></i>
+            </a>
+            <a href="#" class="w-10 h-10 rounded-full border border-white border-opacity-20 flex items-center justify-center text-white hover:bg-white hover:bg-opacity-10 transition-colors">
+              <i data-feather="instagram" class="w-4 h-4"></i>
+            </a>
+            <a href="#" class="w-10 h-10 rounded-full border border-white border-opacity-20 flex items-center justify-center text-white hover:bg-white hover:bg-opacity-10 transition-colors">
+              <i data-feather="twitter" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h3 class="text-lg font-display font-bold mb-6">Quick Links</h3>
+          <ul class="space-y-4">
+            <li><a href="index.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Home</a></li>
+            <li><a href="about.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">About Us</a></li>
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Services</a></li>
+            <li><a href="team.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Our Team</a></li>
+            <li><a href="enrollment.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Enrollment</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-lg font-display font-bold mb-6">Programs</h3>
+          <ul class="space-y-4">
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Core Subjects</a></li>
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Specialized Programs</a></li>
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Summer Courses</a></li>
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Entrance Test Prep</a></li>
+            <li><a href="services.html" class="text-white text-opacity-80 hover:text-opacity-100 transition-colors">Homework Help</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-lg font-display font-bold mb-6">Contact Us</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <i data-feather="map-pin" class="w-5 h-5 mr-3 mt-0.5 text-white text-opacity-80"></i>
+              <span class="text-white text-opacity-80">Villa No. 99, Street - 201, Zone - 90, Al Wakra, Qatar</span>
+            </li>
+            <li class="flex items-start">
+              <i data-feather="phone" class="w-5 h-5 mr-3 mt-0.5 text-white text-opacity-80"></i>
+              <span class="text-white text-opacity-80">+974 3015 8401</span>
+            </li>
+            <li class="flex items-start">
+              <i data-feather="mail" class="w-5 h-5 mr-3 mt-0.5 text-white text-opacity-80"></i>
+              <span class="text-white text-opacity-80">tuitionwakra@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="border-t border-white border-opacity-10 mt-12 pt-8 text-center">
+        <p class="text-white text-opacity-60 text-sm">
+          © 2024 Tuition Point Education Center. All rights reserved. Licensed by the Ministry of Education & Higher Education.
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="main.js"></script>
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>
