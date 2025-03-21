@@ -49,24 +49,42 @@ function initMobileMenu() {
   
   if (!menuToggle || !mobileMenu || !closeMenu) return;
   
+  // Fix: Update mobile menu implementation to use proper display and transform
   menuToggle.addEventListener('click', () => {
     mobileMenu.classList.remove('hidden');
+    // Allow a brief moment for the DOM to update before applying the transform
+    setTimeout(() => {
+      mobileMenu.classList.add('menu-open');
+    }, 10);
     document.body.style.overflow = 'hidden';
   });
   
-  closeMenu.addEventListener('click', () => {
-    mobileMenu.classList.add('hidden');
-    document.body.style.overflow = '';
-  });
+  closeMenu.addEventListener('click', closeMobileMenu);
   
   // Close menu when clicking on a link
   const mobileLinks = mobileMenu.querySelectorAll('a');
   mobileLinks.forEach(link => {
-    link.addEventListener('click', () => {
-      mobileMenu.classList.add('hidden');
-      document.body.style.overflow = '';
-    });
+    link.addEventListener('click', closeMobileMenu);
   });
+  
+  // Close menu when clicking outside
+  document.addEventListener('click', (e) => {
+    if (mobileMenu.classList.contains('menu-open') && 
+        !mobileMenu.contains(e.target) && 
+        e.target !== menuToggle &&
+        !menuToggle.contains(e.target)) {
+      closeMobileMenu();
+    }
+  });
+  
+  function closeMobileMenu() {
+    mobileMenu.classList.remove('menu-open');
+    // Wait for the transition to complete before hiding
+    setTimeout(() => {
+      mobileMenu.classList.add('hidden');
+    }, 300); // Match this to the transition duration in CSS
+    document.body.style.overflow = '';
+  }
 }
 
 // Lazy load images

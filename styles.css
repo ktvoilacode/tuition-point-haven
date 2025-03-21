@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
 
 @tailwind base;
@@ -96,12 +95,10 @@
   text-wrap: balance;
 }
 
-/* Focus states */
 *:focus-visible {
   @apply outline-none ring-2 ring-accent ring-opacity-50;
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -118,7 +115,6 @@
   @apply bg-accent;
 }
 
-/* Header animations */
 .header-content {
   perspective: 1000px;
 }
@@ -131,20 +127,22 @@
   transform: scale(1.03) translateY(-5px);
 }
 
-/* Mobile menu */
 .mobile-menu {
-  @apply fixed inset-0 bg-white z-50 transform transition-transform duration-300 ease-in-out;
+  @apply fixed inset-0 bg-white z-50 transform transition-transform duration-300 ease-in-out translate-x-full;
+}
+
+.mobile-menu.menu-open {
+  transform: translateX(0);
 }
 
 .mobile-menu.hidden {
-  transform: translateX(100%);
+  display: none;
 }
 
 .desktop-menu {
   backdrop-filter: blur(8px);
 }
 
-/* Lazy load images */
 .lazy-image {
   @apply transition-opacity duration-700 ease-in-out opacity-0;
 }
@@ -153,7 +151,6 @@
   @apply opacity-100;
 }
 
-/* Timeline */
 .timeline-item {
   @apply relative pl-8 pb-8 border-l border-light;
 }
