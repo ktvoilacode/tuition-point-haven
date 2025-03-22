@@ -12,41 +12,37 @@
   
   <!-- Styles -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   
   <!-- Feather Icons -->
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body class="bg-surface">
-  <!-- Header -->
-  <header class="fixed top-0 left-0 right-0 bg-white bg-opacity-90 backdrop-blur-glass z-40 shadow-soft">
+   <!-- Header -->
+   <header class="fixed top-0 left-0 right-0  bg-opacity-90 backdrop-blur-glass z-40 shadow-soft" style="background-color: #011c63;">
     <div class="container py-4 flex items-center justify-between">
       <a href="index.html" class="flex items-center space-x-2">
-        <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white">
-          <span class="font-display font-bold text-lg">TP</span>
-        </div>
-        <div>
-          <span class="font-display font-bold text-primary text-lg">Tuition Point</span>
-        </div>
+        <img src="assets/tp_logo.png" class="h-14" />
       </a>
       
       <!-- Desktop Menu -->
       <nav class="hidden md:flex items-center space-x-8">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link">About Us</a>
-        <a href="services.html" class="nav-link">Services</a>
-        <a href="team.html" class="nav-link">Our Team</a>
-        <a href="achievements.html" class="nav-link">Success Stories</a>
-        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="index.html" class="nav-link text-white">Home</a>
+        <a href="about.html" class="nav-link text-white">About Us</a>
+        <a href="services.html" class="nav-link text-white">Services</a>
+        <a href="team.html" class="nav-link text-white">Our Team</a>
+        <a href="achievements.html" class="nav-link text-white" >Success Stories</a>
+        <a href="contact.html" class="nav-link text-white">Contact</a>
         <a href="enrollment.html" class="btn btn-primary">Enroll Now</a>
       </nav>
       
       <!-- Mobile Menu Button -->
-      <button id="menu-toggle" class="md:hidden text-primary" aria-label="Open Menu">
+      <button id="menu-toggle" class="md:hidden text-white" aria-label="Open Menu">
         <i data-feather="menu" class="w-6 h-6"></i>
       </button>
     </div>
   </header>
+  
   
   <!-- Mobile Menu -->
   <div id="mobile-menu" class="mobile-menu hidden">
@@ -79,7 +75,7 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto">
         <h1 class="font-display text-4xl md:text-5xl font-bold mb-6 animate-slide-up">Parent & Student Support</h1>
-        <p class="text-lg text-muted animate-slide-up stagger-1">We believe in a collaborative approach to education, involving parents as partners in the learning journey.</p>
+        <p class="text-lg   animate-slide-up stagger-1">We believe in a collaborative approach to education, involving parents as partners in the learning journey.</p>
       </div>
     </div>
   </section>
@@ -101,7 +97,7 @@
               </div>
               <div>
                 <h3 class="text-xl font-display font-bold mb-2">Regular Updates</h3>
-                <p class="text-muted">
+                <p class=" ">
                   We provide weekly progress reports and regular updates through our parent portal, keeping you informed about your child's academic development.
                 </p>
               </div>
@@ -113,7 +109,7 @@
               </div>
               <div>
                 <h3 class="text-xl font-display font-bold mb-2">Parent-Teacher Meetings</h3>
-                <p class="text-muted">
+                <p class=" ">
                   We schedule regular in-person and virtual parent-teacher meetings to discuss student progress, address concerns, and collaborate on learning goals.
                 </p>
               </div>
@@ -125,7 +121,7 @@
               </div>
               <div>
                 <h3 class="text-xl font-display font-bold mb-2">Parent Workshops</h3>
-                <p class="text-muted">
+                <p class=" ">
                   We organize workshops on topics such as supporting your child's learning at home, understanding curriculum requirements, and navigating educational challenges.
                 </p>
               </div>
@@ -137,7 +133,7 @@
               </div>
               <div>
                 <h3 class="text-xl font-display font-bold mb-2">Open Communication</h3>
-                <p class="text-muted">
+                <p class=" ">
                   We maintain open channels of communication through email, phone, and our dedicated parent communication app for quick responses to questions or concerns.
                 </p>
               </div>
@@ -148,7 +144,7 @@
         <div class="relative order-1 lg:order-2 animate-slide-up stagger-1">
           <div class="absolute -top-10 -right-10 w-64 h-64 bg-accent bg-opacity-10 rounded-full filter blur-3xl z-0"></div>
           <img 
-            src="https://images.unsplash.com/photo-1491308056676-205b7c9a7dc1?auto=format&fit=crop&w=1200&q=80" 
+            src="assets/ptm.jpg" 
             alt="Parent and teacher meeting at Tuition Point" 
             class="w-full h-auto rounded-2xl shadow-medium relative z-10"
           >
@@ -171,7 +167,7 @@
             <i data-feather="heart" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Academic Counseling</h3>
-          <p class="text-muted">
+          <p class=" ">
             Our experienced counselors provide guidance on course selection, exam preparation strategies, and future academic planning, helping students make informed decisions about their educational path.
           </p>
         </div>
@@ -181,7 +177,7 @@
             <i data-feather="clipboard" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Study Skills Workshops</h3>
-          <p class="text-muted">
+          <p class=" ">
             We conduct regular workshops on effective note-taking, time management, exam preparation, and other essential study skills that help students become more efficient and confident learners.
           </p>
         </div>
@@ -191,7 +187,7 @@
             <i data-feather="trending-up" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Progress Monitoring</h3>
-          <p class="text-muted">
+          <p class=" ">
             We use data-driven approaches to track student progress, identify areas for improvement, and adjust learning plans accordingly, ensuring continuous growth and development.
           </p>
         </div>
@@ -201,7 +197,7 @@
             <i data-feather="shield" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Mental Wellbeing</h3>
-          <p class="text-muted">
+          <p class=" ">
             We recognize the importance of mental health in academic success and provide resources and support to help students manage stress, build resilience, and maintain a healthy balance.
           </p>
         </div>
@@ -211,7 +207,7 @@
             <i data-feather="users" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Peer Learning Groups</h3>
-          <p class="text-muted">
+          <p class=" ">
             We facilitate collaborative learning opportunities where students can work together, share knowledge, and develop important social and communication skills while reinforcing their understanding.
           </p>
         </div>
@@ -221,7 +217,7 @@
             <i data-feather="award" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Recognition & Rewards</h3>
-          <p class="text-muted">
+          <p class=" ">
             We celebrate student achievements through our recognition program, acknowledging not just academic excellence but also effort, improvement, and character development.
           </p>
         </div>
@@ -246,14 +242,14 @@
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
           </div>
-          <p class="text-muted mb-6">"The parent-teacher meetings at Tuition Point have been invaluable. The teachers take time to explain my child's progress in detail and offer practical suggestions for how we can support learning at home."</p>
+          <p class="  mb-6">"The parent-teacher meetings at Tuition Point have been invaluable. The teachers take time to explain my child's progress in detail and offer practical suggestions for how we can support learning at home."</p>
           <div class="flex items-center">
             <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
               <span class="font-medium">RP</span>
             </div>
             <div>
               <h4 class="font-medium">Reshma Patel</h4>
-              <p class="text-sm text-muted">Parent of Grade 8 Student</p>
+              <p class="text-sm  ">Parent of Grade 8 Student</p>
             </div>
           </div>
         </div>
@@ -266,14 +262,14 @@
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
           </div>
-          <p class="text-muted mb-6">"I appreciate how the Tuition Point team involves parents in the educational process. The weekly progress reports help me stay informed, and the parent workshops have given me valuable tools to support my son's learning."</p>
+          <p class="  mb-6">"I appreciate how the Tuition Point team involves parents in the educational process. The weekly progress reports help me stay informed, and the parent workshops have given me valuable tools to support my son's learning."</p>
           <div class="flex items-center">
             <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
               <span class="font-medium">AM</span>
             </div>
             <div>
               <h4 class="font-medium">Ahmed Mohamed</h4>
-              <p class="text-sm text-muted">Parent of Grade 5 Student</p>
+              <p class="text-sm  ">Parent of Grade 5 Student</p>
             </div>
           </div>
         </div>
@@ -292,35 +288,35 @@
       <div class="max-w-3xl mx-auto space-y-6 animate-slide-up">
         <div class="glass-card">
           <h3 class="text-xl font-display font-bold mb-3">How often are parent-teacher meetings held?</h3>
-          <p class="text-muted">
+          <p class=" ">
             We schedule formal parent-teacher meetings once every term (three times per academic year). However, parents can request additional meetings at any time based on their child's needs or concerns.
           </p>
         </div>
         
         <div class="glass-card">
           <h3 class="text-xl font-display font-bold mb-3">How can I stay updated on my child's progress?</h3>
-          <p class="text-muted">
+          <p class=" ">
             We provide weekly progress updates through our parent portal and communication app. These updates include information about attendance, topics covered, homework completion, test results, and teacher observations.
           </p>
         </div>
         
         <div class="glass-card">
           <h3 class="text-xl font-display font-bold mb-3">What should I do if my child is struggling with a particular subject?</h3>
-          <p class="text-muted">
+          <p class=" ">
             Contact your child's tutor or our center coordinator immediately. We can arrange a meeting to discuss the challenges, adjust the learning plan, provide additional support, or recommend specialized resources as needed.
           </p>
         </div>
         
         <div class="glass-card">
           <h3 class="text-xl font-display font-bold mb-3">Are there resources for parents to help with learning at home?</h3>
-          <p class="text-muted">
+          <p class=" ">
             Yes, we provide parents with resource guides, recommended practice materials, and access to our digital learning platform. We also conduct workshops specifically focused on supporting learning at home.
           </p>
         </div>
         
         <div class="glass-card">
           <h3 class="text-xl font-display font-bold mb-3">How do you help students manage academic stress?</h3>
-          <p class="text-muted">
+          <p class=" ">
             We incorporate stress management techniques in our teaching approach, provide counseling support when needed, and conduct workshops on time management and study skills. We also work closely with parents to ensure a balanced approach to academic expectations.
           </p>
         </div>

@@ -12,37 +12,33 @@
   
   <!-- Styles -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" type="module"></script>
   
   <!-- Feather Icons -->
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body class="bg-surface">
-  <!-- Header -->
-  <header class="fixed top-0 left-0 right-0 bg-white bg-opacity-90 backdrop-blur-glass z-40 shadow-soft">
+   <!-- Header -->
+   <header class="fixed top-0 left-0 right-0  bg-opacity-90 backdrop-blur-glass z-40 shadow-soft" style="background-color: #011c63;">
     <div class="container py-4 flex items-center justify-between">
       <a href="index.html" class="flex items-center space-x-2">
-        <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white">
-          <span class="font-display font-bold text-lg">TP</span>
-        </div>
-        <div>
-          <span class="font-display font-bold text-primary text-lg">Tuition Point</span>
-        </div>
+        <img src="assets/tp_logo.png" class="h-14" />
       </a>
       
       <!-- Desktop Menu -->
       <nav class="hidden md:flex items-center space-x-8">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link">About Us</a>
-        <a href="services.html" class="nav-link">Services</a>
-        <a href="team.html" class="nav-link">Our Team</a>
-        <a href="achievements.html" class="nav-link">Success Stories</a>
-        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="index.html" class="nav-link text-white">Home</a>
+        <a href="about.html" class="nav-link text-white">About Us</a>
+        <a href="services.html" class="nav-link text-white">Services</a>
+        <a href="team.html" class="nav-link text-white">Our Team</a>
+        <a href="achievements.html" class="nav-link text-white" >Success Stories</a>
+        <a href="contact.html" class="nav-link text-white">Contact</a>
         <a href="enrollment.html" class="btn btn-primary">Enroll Now</a>
       </nav>
       
       <!-- Mobile Menu Button -->
-      <button id="menu-toggle" class="md:hidden text-primary" aria-label="Open Menu">
+      <button id="menu-toggle" class="md:hidden text-white" aria-label="Open Menu">
         <i data-feather="menu" class="w-6 h-6"></i>
       </button>
     </div>
@@ -79,7 +75,7 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto">
         <h1 class="font-display text-4xl md:text-5xl font-bold mb-6 animate-slide-up">About Us</h1>
-        <p class="text-lg text-muted animate-slide-up stagger-1">Learn about our journey and commitment to educational excellence.</p>
+        <p class="text-lg   animate-slide-up  -1">Learn about our journey and commitment to educational excellence.</p>
       </div>
     </div>
   </section>
@@ -90,20 +86,20 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div class="animate-slide-up">
           <h2 class="section-title text-left">Our Story</h2>
-          <p class="text-muted mb-6">
+          <p class="  mb-6">
             Tuition Point Education Center was established with a clear vision: to provide high-quality, personalized education that helps students reach their full potential. Located in Al Wakra, Qatar, we serve students from kindergarten to grade 12 across various curricula.
           </p>
-          <p class="text-muted mb-6">
+          <p class="  mb-6">
             Our center began with just a handful of dedicated teachers and a small group of students. Through our commitment to excellence and our personalized approach to education, we've grown into a trusted educational institution serving the community.
           </p>
-          <p class="text-muted">
+          <p class=" ">
             Today, Tuition Point is proud to be licensed by the Ministry of Education & Higher Education, offering comprehensive academic support across multiple curricula including CBSE, IGCSE, IB, Federal, and Bangladesh Board.
           </p>
         </div>
-        <div class="relative animate-slide-up stagger-1">
+        <div class="relative animate-slide-up  -1">
           <div class="absolute -top-10 -right-10 w-64 h-64 bg-accent bg-opacity-10 rounded-full filter blur-3xl z-0"></div>
           <img 
-            src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1200&q=80" 
+            src="assets/about_banner.png" 
             alt="Students studying at Tuition Point" 
             class="w-full h-auto rounded-2xl shadow-medium relative z-10"
           >
@@ -118,20 +114,20 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="glass-card animate-slide-up">
           <h2 class="text-2xl font-display font-bold mb-6">Our Mission</h2>
-          <p class="text-muted mb-6">
+          <p class="  mb-6">
             Our mission is to empower students with the knowledge, skills, and confidence necessary to succeed academically and beyond. We strive to create a supportive learning environment where each student can discover their potential and develop a lifelong love for learning.
           </p>
-          <p class="text-muted">
+          <p class=" ">
             We are committed to providing personalized education that addresses the unique needs of each student, helping them overcome challenges and achieve their goals.
           </p>
         </div>
         
-        <div class="glass-card animate-slide-up stagger-1">
+        <div class="glass-card animate-slide-up  -1">
           <h2 class="text-2xl font-display font-bold mb-6">Our Vision</h2>
-          <p class="text-muted mb-6">
+          <p class="  mb-6">
             Our vision is to be a leading educational center that transforms lives through education. We aim to be recognized for our innovative teaching methods, dedicated educators, and the academic success of our students.
           </p>
-          <p class="text-muted">
+          <p class=" ">
             We envision a future where every student who passes through our doors is equipped with the academic foundation and critical thinking skills needed to thrive in an increasingly complex world.
           </p>
         </div>
@@ -148,36 +144,36 @@
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div class="card text-center animate-slide-up stagger-1">
+        <div class="card text-center animate-slide-up  -1">
           <div class="w-16 h-16 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-6">
             <i data-feather="user" class="w-8 h-8 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Student-Centered</h3>
-          <p class="text-muted">We place students at the heart of everything we do, tailoring our approach to meet their unique needs.</p>
+          <p class=" ">We place students at the heart of everything we do, tailoring our approach to meet their unique needs.</p>
         </div>
         
-        <div class="card text-center animate-slide-up stagger-2">
+        <div class="card text-center animate-slide-up  -2">
           <div class="w-16 h-16 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-6">
             <i data-feather="star" class="w-8 h-8 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Excellence</h3>
-          <p class="text-muted">We strive for excellence in all aspects of our work, constantly seeking to improve our teaching methods.</p>
+          <p class=" ">We strive for excellence in all aspects of our work, constantly seeking to improve our teaching methods.</p>
         </div>
         
-        <div class="card text-center animate-slide-up stagger-3">
+        <div class="card text-center animate-slide-up  -3">
           <div class="w-16 h-16 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-6">
             <i data-feather="heart" class="w-8 h-8 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Compassion</h3>
-          <p class="text-muted">We approach education with empathy and understanding, supporting students through challenges.</p>
+          <p class=" ">We approach education with empathy and understanding, supporting students through challenges.</p>
         </div>
         
-        <div class="card text-center animate-slide-up stagger-4">
+        <div class="card text-center animate-slide-up  -4">
           <div class="w-16 h-16 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-6">
             <i data-feather="shield" class="w-8 h-8 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Integrity</h3>
-          <p class="text-muted">We uphold the highest standards of professionalism, honesty, and ethical conduct in all interactions.</p>
+          <p class=" ">We uphold the highest standards of professionalism, honesty, and ethical conduct in all interactions.</p>
         </div>
       </div>
     </div>
@@ -199,7 +195,7 @@
             </div>
             <div>
               <h3 class="text-xl font-display font-bold mb-2">Expert Teachers</h3>
-              <p class="text-muted">Our team consists of highly qualified educators with extensive experience and a passion for teaching.</p>
+              <p class=" ">Our team consists of highly qualified educators with extensive experience and a passion for teaching.</p>
             </div>
           </div>
           
@@ -209,7 +205,7 @@
             </div>
             <div>
               <h3 class="text-xl font-display font-bold mb-2">Tailored Learning</h3>
-              <p class="text-muted">We create individualized learning plans that address each student's specific needs and goals.</p>
+              <p class=" ">We create individualized learning plans that address each student's specific needs and goals.</p>
             </div>
           </div>
           
@@ -219,7 +215,7 @@
             </div>
             <div>
               <h3 class="text-xl font-display font-bold mb-2">Comprehensive Support</h3>
-              <p class="text-muted">We offer a wide range of subjects and specialized programs to meet diverse educational needs.</p>
+              <p class=" ">We offer a wide range of subjects and specialized programs to meet diverse educational needs.</p>
             </div>
           </div>
         </div>
@@ -227,20 +223,20 @@
         <div class="relative mx-auto max-w-xs lg:max-w-none animate-fade-in">
           <div class="absolute -inset-4 bg-accent bg-opacity-10 rounded-full filter blur-3xl"></div>
           <img 
-            src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=600&q=80" 
+            src="assets/about2_banner.png" 
             alt="Tuition Point learning environment" 
             class="relative rounded-2xl shadow-medium w-full h-auto"
           >
         </div>
         
-        <div class="space-y-8 animate-slide-up stagger-1">
+        <div class="space-y-8 animate-slide-up  -1">
           <div class="flex items-start gap-4">
             <div class="w-12 h-12 bg-accent bg-opacity-10 rounded-full flex items-center justify-center flex-shrink-0">
               <i data-feather="check-circle" class="w-6 h-6 text-accent"></i>
             </div>
             <div>
               <h3 class="text-xl font-display font-bold mb-2">Proven Results</h3>
-              <p class="text-muted">Our students consistently achieve excellent academic results and gain admission to top schools.</p>
+              <p class=" ">Our students consistently achieve excellent academic results and gain admission to top schools.</p>
             </div>
           </div>
           
@@ -250,7 +246,7 @@
             </div>
             <div>
               <h3 class="text-xl font-display font-bold mb-2">Supportive Environment</h3>
-              <p class="text-muted">We foster a positive and encouraging atmosphere where students feel comfortable taking academic risks.</p>
+              <p class=" ">We foster a positive and encouraging atmosphere where students feel comfortable taking academic risks.</p>
             </div>
           </div>
           
@@ -260,7 +256,7 @@
             </div>
             <div>
               <h3 class="text-xl font-display font-bold mb-2">Licensed & Recognized</h3>
-              <p class="text-muted">We are officially licensed by the Ministry of Education & Higher Education in Qatar.</p>
+              <p class=" ">We are officially licensed by the Ministry of Education & Higher Education in Qatar.</p>
             </div>
           </div>
         </div>
@@ -273,8 +269,8 @@
     <div class="container">
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-3xl md:text-4xl font-display font-bold mb-6 animate-slide-up">Ready to Start Your Educational Journey?</h2>
-        <p class="text-lg mb-8 text-white text-opacity-90 animate-slide-up stagger-1">Take the first step toward academic excellence with Tuition Point Education Center.</p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up stagger-2">
+        <p class="text-lg mb-8 text-white text-opacity-90 animate-slide-up  -1">Take the first step toward academic excellence with Tuition Point Education Center.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up  -2">
           <a href="enrollment.html" class="btn bg-white text-accent hover:bg-opacity-90">
             Enroll Today
           </a>

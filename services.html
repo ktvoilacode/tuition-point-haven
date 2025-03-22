@@ -12,37 +12,32 @@
   
   <!-- Styles -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   
   <!-- Feather Icons -->
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body class="bg-surface">
-  <!-- Header -->
-  <header class="fixed top-0 left-0 right-0 bg-white bg-opacity-90 backdrop-blur-glass z-40 shadow-soft">
+   <!-- Header -->
+   <header class="fixed top-0 left-0 right-0  bg-opacity-90 backdrop-blur-glass z-40 shadow-soft" style="background-color: #011c63;">
     <div class="container py-4 flex items-center justify-between">
       <a href="index.html" class="flex items-center space-x-2">
-        <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white">
-          <span class="font-display font-bold text-lg">TP</span>
-        </div>
-        <div>
-          <span class="font-display font-bold text-primary text-lg">Tuition Point</span>
-        </div>
+        <img src="assets/tp_logo.png" class="h-14" />
       </a>
       
       <!-- Desktop Menu -->
       <nav class="hidden md:flex items-center space-x-8">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link">About Us</a>
-        <a href="services.html" class="nav-link">Services</a>
-        <a href="team.html" class="nav-link">Our Team</a>
-        <a href="achievements.html" class="nav-link">Success Stories</a>
-        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="index.html" class="nav-link text-white">Home</a>
+        <a href="about.html" class="nav-link text-white">About Us</a>
+        <a href="services.html" class="nav-link text-white">Services</a>
+        <a href="team.html" class="nav-link text-white">Our Team</a>
+        <a href="achievements.html" class="nav-link text-white" >Success Stories</a>
+        <a href="contact.html" class="nav-link text-white">Contact</a>
         <a href="enrollment.html" class="btn btn-primary">Enroll Now</a>
       </nav>
       
       <!-- Mobile Menu Button -->
-      <button id="menu-toggle" class="md:hidden text-primary" aria-label="Open Menu">
+      <button id="menu-toggle" class="md:hidden text-white" aria-label="Open Menu">
         <i data-feather="menu" class="w-6 h-6"></i>
       </button>
     </div>
@@ -79,7 +74,7 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto">
         <h1 class="font-display text-4xl md:text-5xl font-bold mb-6 animate-slide-up">Our Services</h1>
-        <p class="text-lg text-muted animate-slide-up stagger-1">Comprehensive educational support for students at every level.</p>
+        <p class="text-lg   animate-slide-up  -1">Comprehensive educational support for students at every level.</p>
       </div>
     </div>
   </section>
@@ -93,12 +88,12 @@
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="glass-card animate-slide-up stagger-1">
+        <div class="glass-card animate-slide-up  -1">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
             <i data-feather="book-open" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Elementary Grades (K.G - 5)</h3>
-          <ul class="space-y-3 text-muted">
+          <ul class="space-y-3  ">
             <li class="flex items-center">
               <i data-feather="check" class="w-4 h-4 text-accent mr-2"></i>
               <span>Mathematics</span>
@@ -122,12 +117,12 @@
           </ul>
         </div>
         
-        <div class="glass-card animate-slide-up stagger-2">
+        <div class="glass-card animate-slide-up  -2">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
             <i data-feather="book" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Middle School (Grades 6-8)</h3>
-          <ul class="space-y-3 text-muted">
+          <ul class="space-y-3  ">
             <li class="flex items-center">
               <i data-feather="check" class="w-4 h-4 text-accent mr-2"></i>
               <span>Mathematics</span>
@@ -151,12 +146,12 @@
           </ul>
         </div>
         
-        <div class="glass-card animate-slide-up stagger-3">
+        <div class="glass-card animate-slide-up  -3">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
             <i data-feather="award" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">High School (Grades 9-12)</h3>
-          <ul class="space-y-3 text-muted">
+          <ul class="space-y-3  ">
             <li class="flex items-center">
               <i data-feather="check" class="w-4 h-4 text-accent mr-2"></i>
               <span>Mathematics</span>
@@ -200,73 +195,73 @@
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 gap-y-12 gap-x-8">
-        <div class="flex gap-6 animate-slide-up stagger-1">
+        <div class="flex gap-6 animate-slide-up  -1">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center flex-shrink-0">
             <i data-feather="zap" class="w-6 h-6 text-accent"></i>
           </div>
           <div>
             <h3 class="text-xl font-display font-bold mb-3">Crash Courses</h3>
-            <p class="text-muted">
+            <p class=" ">
               Intensive, focused courses designed to help students quickly master specific subjects or topics before exams. Our crash courses provide targeted instruction on key concepts and exam strategies.
             </p>
           </div>
         </div>
         
-        <div class="flex gap-6 animate-slide-up stagger-2">
+        <div class="flex gap-6 animate-slide-up  -2">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center flex-shrink-0">
             <i data-feather="layers" class="w-6 h-6 text-accent"></i>
           </div>
           <div>
             <h3 class="text-xl font-display font-bold mb-3">Foundation Courses</h3>
-            <p class="text-muted">
+            <p class=" ">
               Build a strong academic foundation with our comprehensive programs designed to establish thorough understanding of fundamental concepts that will support future learning.
             </p>
           </div>
         </div>
         
-        <div class="flex gap-6 animate-slide-up stagger-3">
+        <div class="flex gap-6 animate-slide-up  -3">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center flex-shrink-0">
             <i data-feather="users" class="w-6 h-6 text-accent"></i>
           </div>
           <div>
             <h3 class="text-xl font-display font-bold mb-3">Entrance Test Preparation</h3>
-            <p class="text-muted">
+            <p class=" ">
               Specialized coaching for pre-school and college entrance examinations. Our programs include mock tests, personalized feedback, and strategies for performing well under exam conditions.
             </p>
           </div>
         </div>
         
-        <div class="flex gap-6 animate-slide-up stagger-4">
+        <div class="flex gap-6 animate-slide-up  -4">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center flex-shrink-0">
             <i data-feather="edit" class="w-6 h-6 text-accent"></i>
           </div>
           <div>
             <h3 class="text-xl font-display font-bold mb-3">NIOS Open Schooling Exam Support</h3>
-            <p class="text-muted">
+            <p class=" ">
               Comprehensive support for students pursuing education through the National Institute of Open Schooling, with special focus on Science and Mathematics.
             </p>
           </div>
         </div>
         
-        <div class="flex gap-6 animate-slide-up stagger-5">
+        <div class="flex gap-6 animate-slide-up  -5">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center flex-shrink-0">
             <i data-feather="help-circle" class="w-6 h-6 text-accent"></i>
           </div>
           <div>
             <h3 class="text-xl font-display font-bold mb-3">Homework Help</h3>
-            <p class="text-muted">
+            <p class=" ">
               One-on-one assistance with daily assignments to ensure students understand concepts and develop good study habits. We guide rather than simply provide answers.
             </p>
           </div>
         </div>
         
-        <div class="flex gap-6 animate-slide-up stagger-6">
+        <div class="flex gap-6 animate-slide-up  -6">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center flex-shrink-0">
             <i data-feather="sun" class="w-6 h-6 text-accent"></i>
           </div>
           <div>
             <h3 class="text-xl font-display font-bold mb-3">Summer Courses</h3>
-            <p class="text-muted">
+            <p class=" ">
               Engaging and enriching programs during the summer break that combine academic learning with fun activities to keep students intellectually stimulated.
             </p>
           </div>
@@ -284,29 +279,29 @@
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
-        <div class="card text-center py-8 animate-slide-up stagger-1">
+        <div class="card text-center py-8 animate-slide-up  -1">
           <div class="text-4xl font-display font-bold text-accent mb-2">CBSE</div>
-          <p class="text-muted">Central Board of Secondary Education</p>
+          <p class=" ">Central Board of Secondary Education</p>
         </div>
         
-        <div class="card text-center py-8 animate-slide-up stagger-2">
+        <div class="card text-center py-8 animate-slide-up  -2">
           <div class="text-4xl font-display font-bold text-accent mb-2">IGCSE</div>
-          <p class="text-muted">International General Certificate of Secondary Education</p>
+          <p class=" ">International General Certificate of Secondary Education</p>
         </div>
         
-        <div class="card text-center py-8 animate-slide-up stagger-3">
+        <div class="card text-center py-8 animate-slide-up  -3">
           <div class="text-4xl font-display font-bold text-accent mb-2">IB</div>
-          <p class="text-muted">International Baccalaureate</p>
+          <p class=" ">International Baccalaureate</p>
         </div>
         
-        <div class="card text-center py-8 animate-slide-up stagger-4">
+        <div class="card text-center py-8 animate-slide-up  -4">
           <div class="text-4xl font-display font-bold text-accent mb-2">Federal</div>
-          <p class="text-muted">Federal Board Curriculum</p>
+          <p class=" ">Federal Board Curriculum</p>
         </div>
         
-        <div class="card text-center py-8 animate-slide-up stagger-5">
+        <div class="card text-center py-8 animate-slide-up  -5">
           <div class="text-4xl font-display font-bold text-accent mb-2">BD</div>
-          <p class="text-muted">Bangladesh Board</p>
+          <p class=" ">Bangladesh Board</p>
         </div>
       </div>
     </div>
@@ -324,29 +319,29 @@
         <div class="relative animate-slide-up">
           <div class="absolute -top-10 -left-10 w-64 h-64 bg-accent bg-opacity-10 rounded-full filter blur-3xl z-0"></div>
           <img 
-            src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80" 
+            src="assets/about_banner.png" 
             alt="Students learning at Tuition Point" 
             class="w-full h-auto rounded-2xl shadow-medium relative z-10"
           >
         </div>
-        <div class="space-y-8 animate-slide-up stagger-1">
+        <div class="space-y-8 animate-slide-up  -1">
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">Personalized Learning Plans</h3>
-            <p class="text-muted">
+            <p class=" ">
               We develop individualized learning plans for each student based on their academic needs, learning style, and goals. This ensures that our instruction is relevant and effective for each learner.
             </p>
           </div>
           
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">Interactive Approach</h3>
-            <p class="text-muted">
+            <p class=" ">
               We believe in active learning through discussions, problem-solving, and real-world applications. Our teaching goes beyond theoretical knowledge to help students understand practical relevance.
             </p>
           </div>
           
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">Regular Assessment</h3>
-            <p class="text-muted">
+            <p class=" ">
               We conduct regular formative and summative assessments to track progress and identify areas for improvement. This data-driven approach allows us to adjust our teaching methods as needed.
             </p>
           </div>
@@ -366,13 +361,13 @@
       <div class="flex flex-col items-center">
         <div class="glass-card max-w-4xl w-full p-8 animate-slide-up">
           <div class="text-center mb-8">
-            <p class="text-lg text-muted">Our pricing varies based on grade level, subject, and program type. We strive to provide competitive rates while maintaining the highest quality of education.</p>
+            <p class="text-lg  ">Our pricing varies based on grade level, subject, and program type. We strive to provide competitive rates while maintaining the highest quality of education.</p>
           </div>
           
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 class="text-xl font-display font-bold mb-4">Factors Affecting Pricing:</h3>
-              <ul class="space-y-3 text-muted">
+              <ul class="space-y-3  ">
                 <li class="flex items-start">
                   <i data-feather="check" class="w-5 h-5 text-accent mr-3 mt-0.5"></i>
                   <span>Grade level and subject complexity</span>
@@ -393,7 +388,7 @@
             </div>
             <div>
               <h3 class="text-xl font-display font-bold mb-4">Payment Options:</h3>
-              <ul class="space-y-3 text-muted">
+              <ul class="space-y-3  ">
                 <li class="flex items-start">
                   <i data-feather="check" class="w-5 h-5 text-accent mr-3 mt-0.5"></i>
                   <span>Monthly payment plans</span>
@@ -430,8 +425,8 @@
     <div class="container">
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-3xl md:text-4xl font-display font-bold mb-6 animate-slide-up">Ready to Begin Your Educational Journey?</h2>
-        <p class="text-lg mb-8 text-white text-opacity-90 animate-slide-up stagger-1">Take the first step toward academic excellence with Tuition Point Education Center.</p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up stagger-2">
+        <p class="text-lg mb-8 text-white text-opacity-90 animate-slide-up  -1">Take the first step toward academic excellence with Tuition Point Education Center.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up  -2">
           <a href="enrollment.html" class="btn bg-white text-accent hover:bg-opacity-90">
             Enroll Today
           </a>

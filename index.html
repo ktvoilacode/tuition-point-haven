@@ -12,37 +12,33 @@
   
   <!-- Styles -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+  
   
   <!-- Feather Icons -->
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body class="bg-surface">
   <!-- Header -->
-  <header class="fixed top-0 left-0 right-0 bg-white bg-opacity-90 backdrop-blur-glass z-40 shadow-soft">
+  <header class="fixed top-0 left-0 right-0  bg-opacity-90 backdrop-blur-glass z-40 shadow-soft" style="background-color: #011c63;">
     <div class="container py-4 flex items-center justify-between">
       <a href="index.html" class="flex items-center space-x-2">
-        <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white">
-          <span class="font-display font-bold text-lg">TP</span>
-        </div>
-        <div>
-          <span class="font-display font-bold text-primary text-lg">Tuition Point</span>
-        </div>
+        <img src="assets/tp_logo.png" class="h-14" />
       </a>
       
       <!-- Desktop Menu -->
       <nav class="hidden md:flex items-center space-x-8">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link">About Us</a>
-        <a href="services.html" class="nav-link">Services</a>
-        <a href="team.html" class="nav-link">Our Team</a>
-        <a href="achievements.html" class="nav-link">Success Stories</a>
-        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="index.html" class="nav-link text-white">Home</a>
+        <a href="about.html" class="nav-link text-white">About Us</a>
+        <a href="services.html" class="nav-link text-white">Services</a>
+        <a href="team.html" class="nav-link text-white">Our Team</a>
+        <a href="achievements.html" class="nav-link text-white" >Success Stories</a>
+        <a href="contact.html" class="nav-link text-white">Contact</a>
         <a href="enrollment.html" class="btn btn-primary">Enroll Now</a>
       </nav>
       
       <!-- Mobile Menu Button -->
-      <button id="menu-toggle" class="md:hidden text-primary" aria-label="Open Menu">
+      <button id="menu-toggle" class="md:hidden text-white" aria-label="Open Menu">
         <i data-feather="menu" class="w-6 h-6"></i>
       </button>
     </div>
@@ -79,16 +75,16 @@
     <div class="container">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div class="header-content">
-          <div class="animate-fade-in stagger-1">
+          <div class="animate-fade-in ">
             <span class="header-badge">Licensed by the Ministry of Education & Higher Education</span>
           </div>
-          <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 animate-slide-up stagger-2 text-balance">
+          <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 animate-slide-up  text-balance">
             Empowering Minds, <br>Shaping Futures
           </h1>
-          <p class="text-lg text-muted mb-8 max-w-lg animate-slide-up stagger-3">
+          <p class="text-lg   mb-8 max-w-lg animate-slide-up   -3">
             Welcome to Tuition Point Education Center, where we provide personalized education for students from kindergarten to grade 12 with expert guidance and innovative teaching methods.
           </p>
-          <div class="flex flex-col sm:flex-row gap-4 animate-slide-up stagger-4">
+          <div class="flex flex-col sm:flex-row gap-4 animate-slide-up   -4">
             <a href="enrollment.html" class="btn btn-primary">
               Enroll Today
               <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i>
@@ -101,9 +97,9 @@
         <div class="relative">
           <div class="absolute -top-10 -right-10 w-64 h-64 bg-accent bg-opacity-10 rounded-full filter blur-3xl z-0"></div>
           <img 
-            src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80" 
+            src="assets/hero_banner.png" 
             alt="Students studying at Tuition Point" 
-            class="hero-image w-full h-auto rounded-2xl shadow-medium relative z-10 animate-fade-in stagger-3"
+            class="hero-image w-full h-auto rounded-2xl shadow-medium relative z-10 animate-fade-in   -3"
           >
         </div>
       </div>
@@ -119,28 +115,28 @@
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="card animate-slide-up stagger-1">
+        <div class="card animate-slide-up   -1">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
             <i data-feather="users" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Personalized Approach</h3>
-          <p class="text-muted">We create individualized learning plans tailored to each student's unique needs, learning style, and goals.</p>
+          <p class=" ">We create individualized learning plans tailored to each student's unique needs, learning style, and goals.</p>
         </div>
         
-        <div class="card animate-slide-up stagger-2">
+        <div class="card animate-slide-up   -2">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
             <i data-feather="award" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Expert Teachers</h3>
-          <p class="text-muted">Our team consists of qualified educators with extensive experience in their subject areas and passion for teaching.</p>
+          <p class=" ">Our team consists of qualified educators with extensive experience in their subject areas and passion for teaching.</p>
         </div>
         
-        <div class="card animate-slide-up stagger-3">
+        <div class="card animate-slide-up   -3">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
             <i data-feather="book-open" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Multiple Curricula</h3>
-          <p class="text-muted">We support various curricula including CBSE, IGCSE, IB, Federal, and Bangladesh Board to meet diverse educational needs.</p>
+          <p class=" ">We support various curricula including CBSE, IGCSE, IB, Federal, and Bangladesh Board to meet diverse educational needs.</p>
         </div>
       </div>
     </div>
@@ -155,30 +151,30 @@
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="glass-card transform transition-all duration-300 hover:-translate-y-2 animate-slide-up stagger-1">
+        <div class="glass-card transform transition-all duration-300 hover:-translate-y-2 animate-slide-up   -1">
           <span class="tag mb-4">Grades K.G-12</span>
           <h3 class="text-xl font-display font-bold mb-3">Core Subjects</h3>
-          <p class="text-muted mb-6">Mathematics, Physics, Chemistry, Biology, English, and more tailored to your curriculum.</p>
+          <p class="  mb-6">Mathematics, Physics, Chemistry, Biology, English, and more tailored to your curriculum.</p>
           <a href="services.html" class="text-accent font-medium inline-flex items-center">
             Learn more
             <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i>
           </a>
         </div>
         
-        <div class="glass-card transform transition-all duration-300 hover:-translate-y-2 animate-slide-up stagger-2">
+        <div class="glass-card transform transition-all duration-300 hover:-translate-y-2 animate-slide-up   -2">
           <span class="tag mb-4">All Levels</span>
           <h3 class="text-xl font-display font-bold mb-3">Specialized Programs</h3>
-          <p class="text-muted mb-6">Crash courses, entrance test preparation, and foundation courses for advanced learning.</p>
+          <p class="  mb-6">Crash courses, entrance test preparation, and foundation courses for advanced learning.</p>
           <a href="services.html" class="text-accent font-medium inline-flex items-center">
             Learn more
             <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i>
           </a>
         </div>
         
-        <div class="glass-card transform transition-all duration-300 hover:-translate-y-2 animate-slide-up stagger-3">
+        <div class="glass-card transform transition-all duration-300 hover:-translate-y-2 animate-slide-up   -3">
           <span class="tag mb-4">Summer</span>
           <h3 class="text-xl font-display font-bold mb-3">Summer Courses</h3>
-          <p class="text-muted mb-6">Keep the learning momentum going during summer with our engaging and enriching programs.</p>
+          <p class="  mb-6">Keep the learning momentum going during summer with our engaging and enriching programs.</p>
           <a href="services.html" class="text-accent font-medium inline-flex items-center">
             Learn more
             <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i>
@@ -197,36 +193,36 @@
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div class="card animate-slide-up stagger-1">
+        <div class="card animate-slide-up   -1">
           <div class="flex items-start gap-4 mb-6">
             <div class="w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center flex-shrink-0">
               <span class="text-lg font-bold">L</span>
             </div>
             <div>
               <h3 class="text-xl font-display font-bold">Lalenthika</h3>
-              <p class="text-muted">CBSE Board Exam</p>
+              <p class=" ">CBSE Board Exam</p>
             </div>
           </div>
           <div class="mb-4">
             <span class="text-5xl font-display font-bold text-accent">93.4%</span>
           </div>
-          <p class="text-muted">"Tuition Point helped me understand complex concepts and gave me the confidence to excel in my board exams."</p>
+          <p class=" ">"Tuition Point helped me understand complex concepts and gave me the confidence to excel in my board exams."</p>
         </div>
         
-        <div class="card animate-slide-up stagger-2">
+        <div class="card animate-slide-up   -2">
           <div class="flex items-start gap-4 mb-6">
             <div class="w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center flex-shrink-0">
               <span class="text-lg font-bold">K</span>
             </div>
             <div>
               <h3 class="text-xl font-display font-bold">Keerthana</h3>
-              <p class="text-muted">CBSE Board Exam</p>
+              <p class=" ">CBSE Board Exam</p>
             </div>
           </div>
           <div class="mb-4">
             <span class="text-5xl font-display font-bold text-accent">93%</span>
           </div>
-          <p class="text-muted">"The personalized attention from teachers at Tuition Point made all the difference in my academic performance."</p>
+          <p class=" ">"The personalized attention from teachers at Tuition Point made all the difference in my academic performance."</p>
         </div>
       </div>
       
@@ -243,8 +239,8 @@
     <div class="container">
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-3xl md:text-4xl font-display font-bold mb-6 animate-slide-up">Ready to Start Your Educational Journey?</h2>
-        <p class="text-lg mb-8 text-white text-opacity-90 animate-slide-up stagger-1">Join Tuition Point Education Center today and take the first step toward academic excellence.</p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up stagger-2">
+        <p class="text-lg mb-8 text-white text-opacity-90 animate-slide-up   -1">Join Tuition Point Education Center today and take the first step toward academic excellence.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up   -2">
           <a href="enrollment.html" class="btn bg-white text-accent hover:bg-opacity-90">
             Enroll Today
           </a>
@@ -273,7 +269,7 @@
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="card review-card transform transition-all duration-300 animate-slide-up stagger-1">
+        <div class="card review-card transform transition-all duration-300 animate-slide-up   -1">
           <div class="flex items-center mb-4">
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
@@ -281,19 +277,19 @@
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
           </div>
-          <p class="text-muted mb-6">"I've seen remarkable improvement in my daughter's academic skills over just 3 months at Tuition Point. The teachers are supportive and motivating."</p>
+          <p class="  mb-6">"I've seen remarkable improvement in my daughter's academic skills over just 3 months at Tuition Point. The teachers are supportive and motivating."</p>
           <div class="flex items-center">
             <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
               <span class="font-medium">PM</span>
             </div>
             <div>
               <h4 class="font-medium">Ponnu Menu</h4>
-              <p class="text-sm text-muted">Parent</p>
+              <p class="text-sm  ">Parent</p>
             </div>
           </div>
         </div>
         
-        <div class="card review-card transform transition-all duration-300 animate-slide-up stagger-2">
+        <div class="card review-card transform transition-all duration-300 animate-slide-up   -2">
           <div class="flex items-center mb-4">
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
@@ -301,19 +297,19 @@
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
           </div>
-          <p class="text-muted mb-6">"The worksheets and teaching methods at Tuition Point have really helped my child grasp difficult concepts. I'm very happy with their approach to education."</p>
+          <p class="  mb-6">"The worksheets and teaching methods at Tuition Point have really helped my child grasp difficult concepts. I'm very happy with their approach to education."</p>
           <div class="flex items-center">
             <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
               <span class="font-medium">AS</span>
             </div>
             <div>
               <h4 class="font-medium">Aatha Sharma</h4>
-              <p class="text-sm text-muted">Parent</p>
+              <p class="text-sm  ">Parent</p>
             </div>
           </div>
         </div>
         
-        <div class="card review-card transform transition-all duration-300 animate-slide-up stagger-3">
+        <div class="card review-card transform transition-all duration-300 animate-slide-up   -3">
           <div class="flex items-center mb-4">
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
@@ -321,14 +317,14 @@
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
             <i data-feather="star-half" class="w-4 h-4 text-accent"></i>
           </div>
-          <p class="text-muted mb-6">"Thanks to the coaching at Tuition Point, my kids gained admission to BPS. The teachers' dedication made all the difference in their preparation."</p>
+          <p class="  mb-6">"Thanks to the coaching at Tuition Point, my kids gained admission to BPS. The teachers' dedication made all the difference in their preparation."</p>
           <div class="flex items-center">
             <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
               <span class="font-medium">KN</span>
             </div>
             <div>
               <h4 class="font-medium">Kesavan Nagaraj</h4>
-              <p class="text-sm text-muted">Parent</p>
+              <p class="text-sm  ">Parent</p>
             </div>
           </div>
         </div>
@@ -351,28 +347,28 @@
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <a href="curriculum.html" class="glass-card transform transition-all duration-300 hover:-translate-y-2 animate-slide-up stagger-1">
+        <a href="curriculum.html" class="glass-card transform transition-all duration-300 hover:-translate-y-2 animate-slide-up   -1">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
             <i data-feather="book" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Curriculum</h3>
-          <p class="text-muted">Explore the various curricula we support and our approach to each educational system.</p>
+          <p class=" ">Explore the various curricula we support and our approach to each educational system.</p>
         </a>
         
-        <a href="parent-support.html" class="glass-card transform transition-all duration-300 hover:-translate-y-2 animate-slide-up stagger-2">
+        <a href="parent-support.html" class="glass-card transform transition-all duration-300 hover:-translate-y-2 animate-slide-up   -2">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
             <i data-feather="users" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Parent & Student Support</h3>
-          <p class="text-muted">Learn about our comprehensive support systems for both students and parents.</p>
+          <p class=" ">Learn about our comprehensive support systems for both students and parents.</p>
         </a>
         
-        <a href="campus.html" class="glass-card transform transition-all duration-300 hover:-translate-y-2 animate-slide-up stagger-3">
+        <a href="campus.html" class="glass-card transform transition-all duration-300 hover:-translate-y-2 animate-slide-up   -3">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
             <i data-feather="home" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Our Campus</h3>
-          <p class="text-muted">Take a tour of our modern facilities designed to provide an optimal learning environment.</p>
+          <p class=" ">Take a tour of our modern facilities designed to provide an optimal learning environment.</p>
         </a>
       </div>
     </div>
@@ -453,9 +449,9 @@
       </div>
     </div>
   </footer>
-  
-  <!-- Scripts -->
+
   <script src="main.js"></script>
+  <!-- Scripts -->
   <script>
     feather.replace();
   </script>

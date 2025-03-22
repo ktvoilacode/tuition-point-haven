@@ -12,41 +12,37 @@
   
   <!-- Styles -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   
   <!-- Feather Icons -->
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body class="bg-surface">
-  <!-- Header -->
-  <header class="fixed top-0 left-0 right-0 bg-white bg-opacity-90 backdrop-blur-glass z-40 shadow-soft">
+   <!-- Header -->
+   <header class="fixed top-0 left-0 right-0  bg-opacity-90 backdrop-blur-glass z-40 shadow-soft" style="background-color: #011c63;">
     <div class="container py-4 flex items-center justify-between">
       <a href="index.html" class="flex items-center space-x-2">
-        <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white">
-          <span class="font-display font-bold text-lg">TP</span>
-        </div>
-        <div>
-          <span class="font-display font-bold text-primary text-lg">Tuition Point</span>
-        </div>
+        <img src="assets/tp_logo.png" class="h-14" />
       </a>
       
       <!-- Desktop Menu -->
       <nav class="hidden md:flex items-center space-x-8">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link">About Us</a>
-        <a href="services.html" class="nav-link">Services</a>
-        <a href="team.html" class="nav-link">Our Team</a>
-        <a href="achievements.html" class="nav-link">Success Stories</a>
-        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="index.html" class="nav-link text-white">Home</a>
+        <a href="about.html" class="nav-link text-white">About Us</a>
+        <a href="services.html" class="nav-link text-white">Services</a>
+        <a href="team.html" class="nav-link text-white">Our Team</a>
+        <a href="achievements.html" class="nav-link text-white" >Success Stories</a>
+        <a href="contact.html" class="nav-link text-white">Contact</a>
         <a href="enrollment.html" class="btn btn-primary">Enroll Now</a>
       </nav>
       
       <!-- Mobile Menu Button -->
-      <button id="menu-toggle" class="md:hidden text-primary" aria-label="Open Menu">
+      <button id="menu-toggle" class="md:hidden text-white" aria-label="Open Menu">
         <i data-feather="menu" class="w-6 h-6"></i>
       </button>
     </div>
   </header>
+  
   
   <!-- Mobile Menu -->
   <div id="mobile-menu" class="mobile-menu hidden">
@@ -79,7 +75,7 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto">
         <h1 class="font-display text-4xl md:text-5xl font-bold mb-6 animate-slide-up">Enrollment</h1>
-        <p class="text-lg text-muted animate-slide-up stagger-1">Start your journey toward academic excellence with Tuition Point Education Center.</p>
+        <p class="text-lg   animate-slide-up  -1">Start your journey toward academic excellence with Tuition Point Education Center.</p>
       </div>
     </div>
   </section>
@@ -94,34 +90,34 @@
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
-          <div class="glass-card text-center animate-slide-up stagger-1">
+          <div class="glass-card text-center animate-slide-up  -1">
             <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-6 text-white font-display font-bold text-xl">1</div>
             <h3 class="text-xl font-display font-bold mb-3">Inquiry</h3>
-            <p class="text-muted">
+            <p class=" ">
               Contact us via phone, email, or our website to express your interest and ask any initial questions about our programs.
             </p>
           </div>
           
-          <div class="glass-card text-center animate-slide-up stagger-2">
+          <div class="glass-card text-center animate-slide-up  -2">
             <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-6 text-white font-display font-bold text-xl">2</div>
             <h3 class="text-xl font-display font-bold mb-3">Assessment</h3>
-            <p class="text-muted">
+            <p class=" ">
               We conduct a brief academic assessment to understand the student's current level, strengths, and areas for improvement.
             </p>
           </div>
           
-          <div class="glass-card text-center animate-slide-up stagger-3">
+          <div class="glass-card text-center animate-slide-up  -3">
             <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-6 text-white font-display font-bold text-xl">3</div>
             <h3 class="text-xl font-display font-bold mb-3">Consultation</h3>
-            <p class="text-muted">
+            <p class=" ">
               Meet with our academic team to discuss the assessment results and create a personalized learning plan.
             </p>
           </div>
           
-          <div class="glass-card text-center animate-slide-up stagger-4">
+          <div class="glass-card text-center animate-slide-up  -4">
             <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-6 text-white font-display font-bold text-xl">4</div>
             <h3 class="text-xl font-display font-bold mb-3">Enrollment</h3>
-            <p class="text-muted">
+            <p class=" ">
               Complete the registration process, choose your schedule, and begin your educational journey with us.
             </p>
           </div>
@@ -139,26 +135,26 @@
           <p class="section-subtitle">Please prepare the following documents to complete the enrollment process.</p>
         </div>
         
-        <div class="glass-card animate-slide-up stagger-1">
+        <div class="glass-card animate-slide-up  -1">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 class="text-xl font-display font-bold mb-6">For Students</h3>
               <ul class="space-y-4">
                 <li class="flex items-start">
                   <i data-feather="file-text" class="w-5 h-5 text-accent mr-3 mt-0.5"></i>
-                  <span class="text-muted">Completed enrollment form (provided during consultation)</span>
+                  <span class=" ">Completed enrollment form (provided during consultation)</span>
                 </li>
                 <li class="flex items-start">
                   <i data-feather="file-text" class="w-5 h-5 text-accent mr-3 mt-0.5"></i>
-                  <span class="text-muted">Copy of student's passport or ID</span>
+                  <span class=" ">Copy of student's passport or ID</span>
                 </li>
                 <li class="flex items-start">
                   <i data-feather="file-text" class="w-5 h-5 text-accent mr-3 mt-0.5"></i>
-                  <span class="text-muted">Recent passport-sized photograph</span>
+                  <span class=" ">Recent passport-sized photograph</span>
                 </li>
                 <li class="flex items-start">
                   <i data-feather="file-text" class="w-5 h-5 text-accent mr-3 mt-0.5"></i>
-                  <span class="text-muted">Most recent school report card or transcript</span>
+                  <span class=" ">Most recent school report card or transcript</span>
                 </li>
               </ul>
             </div>
@@ -167,19 +163,19 @@
               <ul class="space-y-4">
                 <li class="flex items-start">
                   <i data-feather="file-text" class="w-5 h-5 text-accent mr-3 mt-0.5"></i>
-                  <span class="text-muted">Copy of parent's/guardian's ID or passport</span>
+                  <span class=" ">Copy of parent's/guardian's ID or passport</span>
                 </li>
                 <li class="flex items-start">
                   <i data-feather="file-text" class="w-5 h-5 text-accent mr-3 mt-0.5"></i>
-                  <span class="text-muted">Proof of residence in Qatar</span>
+                  <span class=" ">Proof of residence in Qatar</span>
                 </li>
                 <li class="flex items-start">
                   <i data-feather="file-text" class="w-5 h-5 text-accent mr-3 mt-0.5"></i>
-                  <span class="text-muted">Emergency contact information</span>
+                  <span class=" ">Emergency contact information</span>
                 </li>
                 <li class="flex items-start">
                   <i data-feather="file-text" class="w-5 h-5 text-accent mr-3 mt-0.5"></i>
-                  <span class="text-muted">Signed terms and conditions form</span>
+                  <span class=" ">Signed terms and conditions form</span>
                 </li>
               </ul>
             </div>
@@ -189,288 +185,10 @@
     </div>
   </section>
   
-  <!-- Enrollment Form -->
-  <section class="section">
-    <div class="container">
-      <div class="max-w-4xl mx-auto">
-        <div class="text-center mb-16 animate-slide-up">
-          <h2 class="section-title">Begin Your Enrollment</h2>
-          <p class="section-subtitle">Fill out this preliminary form to start the enrollment process.</p>
-        </div>
-        
-        <div class="glass-card animate-slide-up stagger-1">
-          <form id="enrollment-form" class="space-y-6">
-            <div class="border-b border-light pb-6 mb-6">
-              <h3 class="text-xl font-display font-bold mb-6">Student Information</h3>
-              
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                <div>
-                  <label for="student-first-name" class="block text-sm font-medium text-primary mb-2">First Name *</label>
-                  <input 
-                    type="text" 
-                    id="student-first-name" 
-                    name="student-first-name" 
-                    class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                    required
-                  >
-                </div>
-                <div>
-                  <label for="student-last-name" class="block text-sm font-medium text-primary mb-2">Last Name *</label>
-                  <input 
-                    type="text" 
-                    id="student-last-name" 
-                    name="student-last-name" 
-                    class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                    required
-                  >
-                </div>
-              </div>
-              
-              <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-                <div>
-                  <label for="student-dob" class="block text-sm font-medium text-primary mb-2">Date of Birth *</label>
-                  <input 
-                    type="date" 
-                    id="student-dob" 
-                    name="student-dob" 
-                    class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                    required
-                  >
-                </div>
-                <div>
-                  <label for="student-gender" class="block text-sm font-medium text-primary mb-2">Gender *</label>
-                  <select 
-                    id="student-gender" 
-                    name="student-gender" 
-                    class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                    required
-                  >
-                    <option value="" selected disabled>Select gender</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">Prefer not to say</option>
-                  </select>
-                </div>
-                <div>
-                  <label for="student-nationality" class="block text-sm font-medium text-primary mb-2">Nationality *</label>
-                  <input 
-                    type="text" 
-                    id="student-nationality" 
-                    name="student-nationality" 
-                    class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                    required
-                  >
-                </div>
-              </div>
-              
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label for="current-school" class="block text-sm font-medium text-primary mb-2">Current School *</label>
-                  <input 
-                    type="text" 
-                    id="current-school" 
-                    name="current-school" 
-                    class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                    required
-                  >
-                </div>
-                <div>
-                  <label for="current-grade" class="block text-sm font-medium text-primary mb-2">Current Grade/Year *</label>
-                  <select 
-                    id="current-grade" 
-                    name="current-grade" 
-                    class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                    required
-                  >
-                    <option value="" selected disabled>Select grade</option>
-                    <option value="KG">Kindergarten</option>
-                    <option value="G1">Grade 1</option>
-                    <option value="G2">Grade 2</option>
-                    <option value="G3">Grade 3</option>
-                    <option value="G4">Grade 4</option>
-                    <option value="G5">Grade 5</option>
-                    <option value="G6">Grade 6</option>
-                    <option value="G7">Grade 7</option>
-                    <option value="G8">Grade 8</option>
-                    <option value="G9">Grade 9</option>
-                    <option value="G10">Grade 10</option>
-                    <option value="G11">Grade 11</option>
-                    <option value="G12">Grade 12</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-            
-            <div class="border-b border-light pb-6 mb-6">
-              <h3 class="text-xl font-display font-bold mb-6">Parent/Guardian Information</h3>
-              
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                <div>
-                  <label for="parent-first-name" class="block text-sm font-medium text-primary mb-2">First Name *</label>
-                  <input 
-                    type="text" 
-                    id="parent-first-name" 
-                    name="parent-first-name" 
-                    class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                    required
-                  >
-                </div>
-                <div>
-                  <label for="parent-last-name" class="block text-sm font-medium text-primary mb-2">Last Name *</label>
-                  <input 
-                    type="text" 
-                    id="parent-last-name" 
-                    name="parent-last-name" 
-                    class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                    required
-                  >
-                </div>
-              </div>
-              
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                <div>
-                  <label for="parent-email" class="block text-sm font-medium text-primary mb-2">Email Address *</label>
-                  <input 
-                    type="email" 
-                    id="parent-email" 
-                    name="parent-email" 
-                    class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                    required
-                  >
-                </div>
-                <div>
-                  <label for="parent-phone" class="block text-sm font-medium text-primary mb-2">Phone Number *</label>
-                  <input 
-                    type="tel" 
-                    id="parent-phone" 
-                    name="parent-phone" 
-                    class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                    required
-                  >
-                </div>
-              </div>
-              
-              <div>
-                <label for="address" class="block text-sm font-medium text-primary mb-2">Address *</label>
-                <textarea 
-                  id="address" 
-                  name="address" 
-                  rows="3" 
-                  class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                  required
-                ></textarea>
-              </div>
-            </div>
-            
-            <div class="border-b border-light pb-6 mb-6">
-              <h3 class="text-xl font-display font-bold mb-6">Program Information</h3>
-              
-              <div class="mb-6">
-                <label class="block text-sm font-medium text-primary mb-2">Subjects of Interest *</label>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                  <div class="flex items-center">
-                    <input type="checkbox" id="subject-math" name="subjects[]" value="math" class="mr-2">
-                    <label for="subject-math">Mathematics</label>
-                  </div>
-                  <div class="flex items-center">
-                    <input type="checkbox" id="subject-physics" name="subjects[]" value="physics" class="mr-2">
-                    <label for="subject-physics">Physics</label>
-                  </div>
-                  <div class="flex items-center">
-                    <input type="checkbox" id="subject-chemistry" name="subjects[]" value="chemistry" class="mr-2">
-                    <label for="subject-chemistry">Chemistry</label>
-                  </div>
-                  <div class="flex items-center">
-                    <input type="checkbox" id="subject-biology" name="subjects[]" value="biology" class="mr-2">
-                    <label for="subject-biology">Biology</label>
-                  </div>
-                  <div class="flex items-center">
-                    <input type="checkbox" id="subject-english" name="subjects[]" value="english" class="mr-2">
-                    <label for="subject-english">English</label>
-                  </div>
-                  <div class="flex items-center">
-                    <input type="checkbox" id="subject-hindi" name="subjects[]" value="hindi" class="mr-2">
-                    <label for="subject-hindi">Hindi</label>
-                  </div>
-                  <div class="flex items-center">
-                    <input type="checkbox" id="subject-economics" name="subjects[]" value="economics" class="mr-2">
-                    <label for="subject-economics">Economics</label>
-                  </div>
-                  <div class="flex items-center">
-                    <input type="checkbox" id="subject-business" name="subjects[]" value="business" class="mr-2">
-                    <label for="subject-business">Business Studies</label>
-                  </div>
-                  <div class="flex items-center">
-                    <input type="checkbox" id="subject-accountancy" name="subjects[]" value="accountancy" class="mr-2">
-                    <label for="subject-accountancy">Accountancy</label>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="mb-6">
-                <label for="curriculum" class="block text-sm font-medium text-primary mb-2">Curriculum *</label>
-                <select 
-                  id="curriculum" 
-                  name="curriculum" 
-                  class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                  required
-                >
-                  <option value="" selected disabled>Select curriculum</option>
-                  <option value="CBSE">CBSE</option>
-                  <option value="IGCSE">IGCSE</option>
-                  <option value="IB">IB</option>
-                  <option value="Federal">Federal Board</option>
-                  <option value="Bangladesh">Bangladesh Board</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-              
-              <div>
-                <label for="additional-info" class="block text-sm font-medium text-primary mb-2">Additional Information</label>
-                <textarea 
-                  id="additional-info" 
-                  name="additional-info" 
-                  rows="4" 
-                  placeholder="Please share any specific areas your child needs help with or any other information that would help us prepare for your assessment."
-                  class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
-                ></textarea>
-              </div>
-            </div>
-            
-            <div class="mb-6">
-              <div class="flex items-start">
-                <input 
-                  type="checkbox" 
-                  id="terms-agreement" 
-                  name="terms-agreement" 
-                  class="mt-1 mr-3" 
-                  required
-                >
-                <label for="terms-agreement" class="text-sm text-muted">
-                  I agree to the <a href="#" class="text-accent">terms and conditions</a> and understand that my information will be processed in accordance with the <a href="#" class="text-accent">privacy policy</a> of Tuition Point Education Center.
-                </label>
-              </div>
-            </div>
-            
-            <div>
-              <button 
-                type="submit" 
-                class="btn btn-primary w-full"
-              >
-                Submit Enrollment Request
-              </button>
-              <p class="text-xs text-muted text-center mt-4">
-                Upon submission, our team will contact you within 1-2 business days to schedule an assessment and continue the enrollment process.
-              </p>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
   
   <!-- FAQ Section -->
-  <section class="section bg-light">
+  <section class="section ">
     <div class="container">
       <div class="text-center max-w-3xl mx-auto mb-16 animate-slide-up">
         <h2 class="section-title">Enrollment FAQs</h2>
@@ -481,35 +199,35 @@
         <div class="space-y-6 animate-slide-up">
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">When can I enroll my child?</h3>
-            <p class="text-muted">
+            <p class=" ">
               We accept enrollments throughout the year, but it's recommended to enroll early to secure preferred time slots and maximize learning benefits.
             </p>
           </div>
           
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">Can I change subjects after enrollment?</h3>
-            <p class="text-muted">
+            <p class=" ">
               Yes, you can modify your subject selection based on your child's needs. We recommend discussing any changes with our academic team to ensure continuity in learning.
             </p>
           </div>
           
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">What if my child has special learning needs?</h3>
-            <p class="text-muted">
+            <p class=" ">
               We work with students of various learning abilities and can provide accommodations where possible. Please discuss your child's specific needs during the consultation phase.
             </p>
           </div>
           
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">What is your refund policy?</h3>
-            <p class="text-muted">
+            <p class=" ">
               Our refund policy varies based on the program and timing of the withdrawal request. Complete details are provided in our terms and conditions document, which will be shared during enrollment.
             </p>
           </div>
           
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">Do you offer make-up classes for missed sessions?</h3>
-            <p class="text-muted">
+            <p class=" ">
               We offer make-up classes for sessions missed due to illness or emergency, subject to availability and advance notice. Please refer to our attendance policy for details.
             </p>
           </div>
@@ -519,7 +237,7 @@
   </section>
   
   <!-- Testimonials -->
-  <section class="section">
+  <section class="section bg-light">
     <div class="container">
       <div class="text-center max-w-3xl mx-auto mb-16 animate-slide-up">
         <h2 class="section-title">What Parents Say</h2>
@@ -527,7 +245,7 @@
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="glass-card animate-slide-up stagger-1">
+        <div class="glass-card animate-slide-up  -1">
           <div class="flex items-center mb-4">
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
@@ -535,19 +253,19 @@
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
           </div>
-          <p class="text-muted mb-6">"The enrollment process was smooth and well-organized. The assessment helped identify my daughter's needs precisely, and the learning plan has been perfect for her progress."</p>
+          <p class="  mb-6">"The enrollment process was smooth and well-organized. The assessment helped identify my daughter's needs precisely, and the learning plan has been perfect for her progress."</p>
           <div class="flex items-center">
             <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
               <span class="font-medium">SS</span>
             </div>
             <div>
               <h4 class="font-medium">Sivakumar Siva</h4>
-              <p class="text-sm text-muted">Parent of Grade 8 student</p>
+              <p class="text-sm  ">Parent of Grade 8 student</p>
             </div>
           </div>
         </div>
         
-        <div class="glass-card animate-slide-up stagger-2">
+        <div class="glass-card animate-slide-up  -2">
           <div class="flex items-center mb-4">
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
@@ -555,19 +273,19 @@
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
           </div>
-          <p class="text-muted mb-6">"I appreciate how flexible Tuition Point was with our scheduling needs. They worked around our busy family schedule to find the perfect time slots for my two sons."</p>
+          <p class="  mb-6">"I appreciate how flexible Tuition Point was with our scheduling needs. They worked around our busy family schedule to find the perfect time slots for my two sons."</p>
           <div class="flex items-center">
             <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
               <span class="font-medium">S2</span>
             </div>
             <div>
               <h4 class="font-medium">SHREE 2642</h4>
-              <p class="text-sm text-muted">Parent of two students</p>
+              <p class="text-sm  ">Parent of two students</p>
             </div>
           </div>
         </div>
         
-        <div class="glass-card animate-slide-up stagger-3">
+        <div class="glass-card animate-slide-up  -3">
           <div class="flex items-center mb-4">
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
@@ -575,14 +293,14 @@
             <i data-feather="star" class="w-4 h-4 text-accent fill-current"></i>
             <i data-feather="star-half" class="w-4 h-4 text-accent"></i>
           </div>
-          <p class="text-muted mb-6">"Enrolling my daughter at Tuition Point was one of the best decisions I've made for her education. The staff was helpful throughout the process, and the results have been impressive."</p>
+          <p class="  mb-6">"Enrolling my daughter at Tuition Point was one of the best decisions I've made for her education. The staff was helpful throughout the process, and the results have been impressive."</p>
           <div class="flex items-center">
             <div class="w-10 h-10 rounded-full bg-light flex items-center justify-center mr-3">
               <span class="font-medium">SP</span>
             </div>
             <div>
               <h4 class="font-medium">Sikander Peer Mohamed</h4>
-              <p class="text-sm text-muted">Parent of Grade 5 student</p>
+              <p class="text-sm  ">Parent of Grade 5 student</p>
             </div>
           </div>
         </div>

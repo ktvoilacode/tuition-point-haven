@@ -12,37 +12,32 @@
   
   <!-- Styles -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   
   <!-- Feather Icons -->
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body class="bg-surface">
-  <!-- Header -->
-  <header class="fixed top-0 left-0 right-0 bg-white bg-opacity-90 backdrop-blur-glass z-40 shadow-soft">
+   <!-- Header -->
+   <header class="fixed top-0 left-0 right-0  bg-opacity-90 backdrop-blur-glass z-40 shadow-soft" style="background-color: #011c63;">
     <div class="container py-4 flex items-center justify-between">
       <a href="index.html" class="flex items-center space-x-2">
-        <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white">
-          <span class="font-display font-bold text-lg">TP</span>
-        </div>
-        <div>
-          <span class="font-display font-bold text-primary text-lg">Tuition Point</span>
-        </div>
+        <img src="assets/tp_logo.png" class="h-14" />
       </a>
       
       <!-- Desktop Menu -->
       <nav class="hidden md:flex items-center space-x-8">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link">About Us</a>
-        <a href="services.html" class="nav-link">Services</a>
-        <a href="team.html" class="nav-link">Our Team</a>
-        <a href="achievements.html" class="nav-link">Success Stories</a>
-        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="index.html" class="nav-link text-white">Home</a>
+        <a href="about.html" class="nav-link text-white">About Us</a>
+        <a href="services.html" class="nav-link text-white">Services</a>
+        <a href="team.html" class="nav-link text-white">Our Team</a>
+        <a href="achievements.html" class="nav-link text-white" >Success Stories</a>
+        <a href="contact.html" class="nav-link text-white">Contact</a>
         <a href="enrollment.html" class="btn btn-primary">Enroll Now</a>
       </nav>
       
       <!-- Mobile Menu Button -->
-      <button id="menu-toggle" class="md:hidden text-primary" aria-label="Open Menu">
+      <button id="menu-toggle" class="md:hidden text-white" aria-label="Open Menu">
         <i data-feather="menu" class="w-6 h-6"></i>
       </button>
     </div>
@@ -79,7 +74,7 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto">
         <h1 class="font-display text-4xl md:text-5xl font-bold mb-6 animate-slide-up">Contact Us</h1>
-        <p class="text-lg text-muted animate-slide-up stagger-1">Get in touch with our team for inquiries about our programs or to schedule a visit.</p>
+        <p class="text-lg   animate-slide-up  -1">Get in touch with our team for inquiries about our programs or to schedule a visit.</p>
       </div>
     </div>
   </section>
@@ -94,7 +89,7 @@
             <div class="mb-4">
               <div class="rounded-xl overflow-hidden h-64 shadow-medium">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57803.01089915695!2d51.585483!3d25.158700000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c9f0a590fb3b%3A0x6a8a431681d44b7!2sAl%20Wakrah%2C%20Qatar!5e0!3m2!1sen!2sus!4v1698753599171!5m2!1sen!2sus" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.9233077314525!2d51.599554499999996!3d25.1720673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45cb471974da9b%3A0x282e08a2665b59f1!2sTuition%20point%20Education%20Center!5e0!3m2!1sen!2sin!4v1742620610397!5m2!1sen!2sin" 
                   width="100%" 
                   height="100%" 
                   style="border:0;" 
@@ -108,142 +103,64 @@
               <i data-feather="map-pin" class="w-5 h-5 text-accent mr-3 mt-1"></i>
               <div>
                 <h3 class="font-medium mb-1">Address</h3>
-                <p class="text-muted">Villa No. 99, Street - 201, Zone - 90, Al Wakra, Qatar</p>
+                <p class=" ">Villa No. 99, Street - 201, Zone - 90, Al Wakra, Qatar</p>
               </div>
             </div>
             <div class="flex items-start mb-4">
               <i data-feather="clock" class="w-5 h-5 text-accent mr-3 mt-1"></i>
               <div>
                 <h3 class="font-medium mb-1">Office Hours</h3>
-                <p class="text-muted">Sunday to Thursday: 9:00 AM - 7:00 PM</p>
-                <p class="text-muted">Saturday: 9:00 AM - 5:00 PM</p>
-                <p class="text-muted">Friday: Closed</p>
+                <p class=" ">Sunday to Thursday: 9:00 AM - 7:00 PM</p>
+                <p class=" ">Saturday: 9:00 AM - 5:00 PM</p>
+                <p class=" ">Friday: Closed</p>
               </div>
             </div>
           </div>
           
-          <div class="glass-card">
-            <h2 class="text-2xl font-display font-bold mb-6">Contact Information</h2>
-            <div class="space-y-4">
-              <div class="flex items-start">
-                <i data-feather="phone" class="w-5 h-5 text-accent mr-3 mt-1"></i>
-                <div>
-                  <h3 class="font-medium mb-1">Phone</h3>
-                  <p class="text-muted">+974 3015 8401</p>
-                </div>
-              </div>
-              <div class="flex items-start">
-                <i data-feather="mail" class="w-5 h-5 text-accent mr-3 mt-1"></i>
-                <div>
-                  <h3 class="font-medium mb-1">Email</h3>
-                  <p class="text-muted">tuitionwakra@gmail.com</p>
-                </div>
-              </div>
-              <div class="flex items-start">
-                <i data-feather="message-circle" class="w-5 h-5 text-accent mr-3 mt-1"></i>
-                <div>
-                  <h3 class="font-medium mb-1">WhatsApp</h3>
-                  <p class="text-muted">+974 3015 8401</p>
-                </div>
+          
+        </div>
+        <div class="glass-card">
+          <h2 class="text-2xl font-display font-bold mb-6">Contact Information</h2>
+          <div class="space-y-4">
+            <div class="flex items-start">
+              <i data-feather="phone" class="w-5 h-5 text-accent mr-3 mt-1"></i>
+              <div>
+                <h3 class="font-medium mb-1">Phone</h3>
+                <p class=" ">+974 3015 8401</p>
               </div>
             </div>
-            
-            <div class="mt-8 border-t border-light pt-8">
-              <h3 class="font-medium mb-4">Connect With Us</h3>
-              <div class="flex space-x-4">
-                <a href="#" class="w-10 h-10 rounded-full bg-accent bg-opacity-10 flex items-center justify-center hover:bg-opacity-20 transition-colors">
-                  <i data-feather="facebook" class="w-5 h-5 text-accent"></i>
-                </a>
-                <a href="#" class="w-10 h-10 rounded-full bg-accent bg-opacity-10 flex items-center justify-center hover:bg-opacity-20 transition-colors">
-                  <i data-feather="instagram" class="w-5 h-5 text-accent"></i>
-                </a>
-                <a href="#" class="w-10 h-10 rounded-full bg-accent bg-opacity-10 flex items-center justify-center hover:bg-opacity-20 transition-colors">
-                  <i data-feather="twitter" class="w-5 h-5 text-accent"></i>
-                </a>
+            <div class="flex items-start">
+              <i data-feather="mail" class="w-5 h-5 text-accent mr-3 mt-1"></i>
+              <div>
+                <h3 class="font-medium mb-1">Email</h3>
+                <p class=" ">tuitionwakra@gmail.com</p>
               </div>
+            </div>
+            <div class="flex items-start">
+              <i data-feather="message-circle" class="w-5 h-5 text-accent mr-3 mt-1"></i>
+              <div>
+                <h3 class="font-medium mb-1">WhatsApp</h3>
+                <p class=" ">+974 3015 8401</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="mt-8 border-t border-light pt-8">
+            <h3 class="font-medium mb-4">Connect With Us</h3>
+            <div class="flex space-x-4">
+              <a href="#" class="w-10 h-10 rounded-full bg-accent bg-opacity-10 flex items-center justify-center hover:bg-opacity-20 transition-colors">
+                <i data-feather="facebook" class="w-5 h-5 text-accent"></i>
+              </a>
+              <a href="#" class="w-10 h-10 rounded-full bg-accent bg-opacity-10 flex items-center justify-center hover:bg-opacity-20 transition-colors">
+                <i data-feather="instagram" class="w-5 h-5 text-accent"></i>
+              </a>
+              <a href="#" class="w-10 h-10 rounded-full bg-accent bg-opacity-10 flex items-center justify-center hover:bg-opacity-20 transition-colors">
+                <i data-feather="twitter" class="w-5 h-5 text-accent"></i>
+              </a>
             </div>
           </div>
         </div>
         
-        <div class="animate-slide-up stagger-1">
-          <div class="glass-card">
-            <h2 class="text-2xl font-display font-bold mb-6">Send Us a Message</h2>
-            <p class="text-muted mb-8">
-              Have a question or want to learn more about our programs? Fill out the form below and we'll get back to you as soon as possible.
-            </p>
-            
-            <form id="contact-form" class="space-y-6">
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label for="name" class="block text-sm font-medium text-primary mb-2">Full Name *</label>
-                  <input 
-                    type="text" 
-                    id="name" 
-                    name="name" 
-                    class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                    required
-                  >
-                </div>
-                <div>
-                  <label for="email" class="block text-sm font-medium text-primary mb-2">Email Address *</label>
-                  <input 
-                    type="email" 
-                    id="email" 
-                    name="email" 
-                    class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                    required
-                  >
-                </div>
-              </div>
-              
-              <div>
-                <label for="phone" class="block text-sm font-medium text-primary mb-2">Phone Number</label>
-                <input 
-                  type="tel" 
-                  id="phone" 
-                  name="phone" 
-                  class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
-                >
-              </div>
-              
-              <div>
-                <label for="subject" class="block text-sm font-medium text-primary mb-2">Subject *</label>
-                <select 
-                  id="subject" 
-                  name="subject" 
-                  class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                  required
-                >
-                  <option value="" selected disabled>Select a subject</option>
-                  <option value="enrollment">Enrollment Inquiry</option>
-                  <option value="program">Program Information</option>
-                  <option value="feedback">Feedback</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-              
-              <div>
-                <label for="message" class="block text-sm font-medium text-primary mb-2">Message *</label>
-                <textarea 
-                  id="message" 
-                  name="message" 
-                  rows="5" 
-                  class="w-full px-4 py-3 border border-light rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" 
-                  required
-                ></textarea>
-              </div>
-              
-              <div>
-                <button 
-                  type="submit" 
-                  class="btn btn-primary w-full"
-                >
-                  Send Message
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -260,35 +177,35 @@
         <div class="space-y-6 animate-slide-up">
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">What are your operating hours?</h3>
-            <p class="text-muted">
+            <p class=" ">
               We are open Sunday to Thursday from 9:00 AM to 7:00 PM, and Saturday from 9:00 AM to 5:00 PM. We are closed on Fridays.
             </p>
           </div>
           
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">How do I enroll my child in your programs?</h3>
-            <p class="text-muted">
+            <p class=" ">
               Enrollment is a simple four-step process: inquiry, assessment, consultation, and final enrollment. You can start by contacting us through phone, email, or by filling out the contact form on our website.
             </p>
           </div>
           
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">Do you offer trial classes?</h3>
-            <p class="text-muted">
+            <p class=" ">
               Yes, we offer trial classes to allow students to experience our teaching methods and environment before committing to a full program. Please contact us to schedule a trial class.
             </p>
           </div>
           
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">What curricula do you support?</h3>
-            <p class="text-muted">
+            <p class=" ">
               We support various curricula including CBSE, IGCSE, IB, Federal Board, and Bangladesh Board. Our teachers are experienced in these educational systems and can provide tailored support.
             </p>
           </div>
           
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">How are classes structured?</h3>
-            <p class="text-muted">
+            <p class=" ">
               Classes are typically structured with a mix of instruction, practice, and assessment. We focus on creating an interactive learning environment with personalized attention to each student's needs.
             </p>
           </div>
@@ -302,8 +219,8 @@
     <div class="container">
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-3xl md:text-4xl font-display font-bold mb-6 animate-slide-up">Ready to Take the Next Step?</h2>
-        <p class="text-lg mb-8 text-white text-opacity-90 animate-slide-up stagger-1">Enroll today and join our community of successful learners.</p>
-        <div class="animate-slide-up stagger-2">
+        <p class="text-lg mb-8 text-white text-opacity-90 animate-slide-up  -1">Enroll today and join our community of successful learners.</p>
+        <div class="animate-slide-up  -2">
           <a href="enrollment.html" class="btn bg-white text-accent hover:bg-opacity-90">
             Enroll Now
           </a>

@@ -12,41 +12,37 @@
   
   <!-- Styles -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   
   <!-- Feather Icons -->
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body class="bg-surface">
-  <!-- Header -->
-  <header class="fixed top-0 left-0 right-0 bg-white bg-opacity-90 backdrop-blur-glass z-40 shadow-soft">
+   <!-- Header -->
+   <header class="fixed top-0 left-0 right-0  bg-opacity-90 backdrop-blur-glass z-40 shadow-soft" style="background-color: #011c63;">
     <div class="container py-4 flex items-center justify-between">
       <a href="index.html" class="flex items-center space-x-2">
-        <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white">
-          <span class="font-display font-bold text-lg">TP</span>
-        </div>
-        <div>
-          <span class="font-display font-bold text-primary text-lg">Tuition Point</span>
-        </div>
+        <img src="assets/tp_logo.png" class="h-14" />
       </a>
       
       <!-- Desktop Menu -->
       <nav class="hidden md:flex items-center space-x-8">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link">About Us</a>
-        <a href="services.html" class="nav-link">Services</a>
-        <a href="team.html" class="nav-link">Our Team</a>
-        <a href="achievements.html" class="nav-link">Success Stories</a>
-        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="index.html" class="nav-link text-white">Home</a>
+        <a href="about.html" class="nav-link text-white">About Us</a>
+        <a href="services.html" class="nav-link text-white">Services</a>
+        <a href="team.html" class="nav-link text-white">Our Team</a>
+        <a href="achievements.html" class="nav-link text-white" >Success Stories</a>
+        <a href="contact.html" class="nav-link text-white">Contact</a>
         <a href="enrollment.html" class="btn btn-primary">Enroll Now</a>
       </nav>
       
       <!-- Mobile Menu Button -->
-      <button id="menu-toggle" class="md:hidden text-primary" aria-label="Open Menu">
+      <button id="menu-toggle" class="md:hidden text-white" aria-label="Open Menu">
         <i data-feather="menu" class="w-6 h-6"></i>
       </button>
     </div>
   </header>
+  
   
   <!-- Mobile Menu -->
   <div id="mobile-menu" class="mobile-menu hidden">
@@ -79,7 +75,7 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto">
         <h1 class="font-display text-4xl md:text-5xl font-bold mb-6 animate-slide-up">Our Campus</h1>
-        <p class="text-lg text-muted animate-slide-up stagger-1">Explore our modern facilities designed to create an optimal learning environment.</p>
+        <p class="text-lg   animate-slide-up  -1">Explore our modern facilities designed to create an optimal learning environment.</p>
       </div>
     </div>
   </section>
@@ -90,20 +86,20 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div class="animate-slide-up">
           <h2 class="section-title text-left">A Space Designed for Learning</h2>
-          <p class="text-muted mb-6">
+          <p class="  mb-6">
             Located in Al Wakra, Qatar, our campus provides a comfortable, stimulating environment where students can focus on their studies and enjoy the learning process. Our facilities are designed with the needs of students in mind, creating spaces that inspire creativity and academic growth.
           </p>
-          <p class="text-muted mb-6">
+          <p class="  mb-6">
             Our education center features modern classrooms, multimedia learning resources, and comfortable study areas. The campus is easily accessible and provides a safe, welcoming atmosphere for students of all ages.
           </p>
-          <p class="text-muted">
+          <p class=" ">
             We're proud to offer a learning environment that combines aesthetic appeal with practical functionality, creating the ideal setting for educational excellence.
           </p>
         </div>
-        <div class="relative animate-slide-up stagger-1">
+        <div class="relative animate-slide-up  -1">
           <div class="absolute -top-10 -right-10 w-64 h-64 bg-accent bg-opacity-10 rounded-full filter blur-3xl z-0"></div>
           <img 
-            src="https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?auto=format&fit=crop&w=1200&q=80" 
+            src="assets/hero_banner.png" 
             alt="Tuition Point campus exterior" 
             class="w-full h-auto rounded-2xl shadow-medium relative z-10"
           >
@@ -121,62 +117,62 @@
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="card animate-slide-up stagger-1">
+        <div class="card animate-slide-up  -1">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
             <i data-feather="book-open" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Modern Classrooms</h3>
-          <p class="text-muted">
+          <p class=" ">
             Our spacious, well-lit classrooms are equipped with smart boards, comfortable seating, and excellent acoustics to create an optimal learning environment.
           </p>
         </div>
         
-        <div class="card animate-slide-up stagger-2">
+        <div class="card animate-slide-up  -2">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
             <i data-feather="monitor" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Technology Resources</h3>
-          <p class="text-muted">
+          <p class=" ">
             We utilize modern educational technology, including computers, tablets, and specialized software to enhance learning and engage students.
           </p>
         </div>
         
-        <div class="card animate-slide-up stagger-3">
+        <div class="card animate-slide-up  -3">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
             <i data-feather="coffee" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Student Lounge</h3>
-          <p class="text-muted">
+          <p class=" ">
             A comfortable space where students can relax between sessions, enjoy refreshments, and engage in casual discussions with peers.
           </p>
         </div>
         
-        <div class="card animate-slide-up stagger-1">
+        <div class="card animate-slide-up  -1">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
             <i data-feather="book" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Resource Library</h3>
-          <p class="text-muted">
+          <p class=" ">
             A curated collection of textbooks, reference materials, and digital resources that students can access to support their studies.
           </p>
         </div>
         
-        <div class="card animate-slide-up stagger-2">
+        <div class="card animate-slide-up  -2">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
             <i data-feather="users" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Group Study Areas</h3>
-          <p class="text-muted">
+          <p class=" ">
             Dedicated spaces for collaborative learning where students can work together on projects and engage in peer-to-peer teaching.
           </p>
         </div>
         
-        <div class="card animate-slide-up stagger-3">
+        <div class="card animate-slide-up  -3">
           <div class="w-14 h-14 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-6">
             <i data-feather="shield" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">Safety Measures</h3>
-          <p class="text-muted">
+          <p class=" ">
             Our campus is equipped with comprehensive safety features, including surveillance, secure access, and emergency protocols.
           </p>
         </div>
@@ -194,32 +190,32 @@
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 animate-slide-up">
         <img 
-          src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=600&h=400&q=80" 
+          src="assets/about2_banner.png" 
           alt="Modern classroom at Tuition Point" 
           class="w-full h-auto rounded-lg shadow-medium"
         >
         <img 
-          src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&h=400&q=80" 
+          src="assets/c1.png" 
           alt="Students studying at Tuition Point" 
           class="w-full h-auto rounded-lg shadow-medium"
         >
         <img 
-          src="https://images.unsplash.com/photo-1491308056676-205b7c9a7dc1?auto=format&fit=crop&w=600&h=400&q=80" 
+          src="assets/about_banner.png" 
           alt="Teacher assisting student at Tuition Point" 
           class="w-full h-auto rounded-lg shadow-medium"
         >
         <img 
-          src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=600&h=400&q=80" 
+          src="assets/c1.png" 
           alt="Group study area at Tuition Point" 
           class="w-full h-auto rounded-lg shadow-medium"
         >
         <img 
-          src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?auto=format&fit=crop&w=600&h=400&q=80" 
+          src="assets/c3.png" 
           alt="Resource library at Tuition Point" 
           class="w-full h-auto rounded-lg shadow-medium"
         >
         <img 
-          src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&h=400&q=80" 
+          src="assets/c4.png" 
           alt="Technology resources at Tuition Point" 
           class="w-full h-auto rounded-lg shadow-medium"
         >
@@ -240,35 +236,43 @@
           <div class="aspect-w-16 aspect-h-9 w-full rounded-lg overflow-hidden bg-gray-200 shadow-medium">
             <!-- Placeholder for map -->
             <div class="flex items-center justify-center bg-gray-200">
-              <i data-feather="map" class="w-16 h-16 text-accent"></i>
+              <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.9233077314525!2d51.599554499999996!3d25.1720673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45cb471974da9b%3A0x282e08a2665b59f1!2sTuition%20point%20Education%20Center!5e0!3m2!1sen!2sin!4v1742620610397!5m2!1sen!2sin" 
+                  width="100%" 
+                  height="200px" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
           </div>
         </div>
-        <div class="space-y-8 animate-slide-up stagger-1">
+        <div class="space-y-8 animate-slide-up  -1">
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">Address</h3>
-            <p class="text-muted">
+            <p class=" ">
               Villa No. 99, Street - 201, Zone - 90, Al Wakra, Qatar
             </p>
           </div>
           
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">Nearby Landmarks</h3>
-            <p class="text-muted">
+            <p class=" ">
               Our center is conveniently located near Al Wakra Hospital and Al Wakra Central Market, making it easily identifiable and accessible.
             </p>
           </div>
           
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">Transportation</h3>
-            <p class="text-muted">
+            <p class=" ">
               Ample parking is available for those arriving by car. Public transportation options are also available with bus stops within walking distance.
             </p>
           </div>
           
           <div class="glass-card">
             <h3 class="text-xl font-display font-bold mb-3">Opening Hours</h3>
-            <p class="text-muted">
+            <p class=" ">
               <span class="block">Sunday to Thursday: 9:00 AM - 8:00 PM</span>
               <span class="block">Friday: 2:00 PM - 8:00 PM</span>
               <span class="block">Saturday: 9:00 AM - 6:00 PM</span>
@@ -284,10 +288,10 @@
     <div class="container">
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-3xl md:text-4xl font-display font-bold mb-6 animate-slide-up">Come Visit Our Campus</h2>
-        <p class="text-lg mb-8 text-white text-opacity-90 animate-slide-up stagger-1">
+        <p class="text-lg mb-8 text-white text-opacity-90 animate-slide-up  -1">
           We invite you to schedule a visit to explore our facilities and learn more about our programs.
         </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up stagger-2">
+        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up  -2">
           <a href="contact.html" class="btn bg-white text-accent hover:bg-opacity-90">
             Schedule a Visit
           </a>

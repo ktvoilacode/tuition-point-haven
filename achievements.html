@@ -12,37 +12,32 @@
   
   <!-- Styles -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   
   <!-- Feather Icons -->
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body class="bg-surface">
-  <!-- Header -->
-  <header class="fixed top-0 left-0 right-0 bg-white bg-opacity-90 backdrop-blur-glass z-40 shadow-soft">
+   <!-- Header -->
+   <header class="fixed top-0 left-0 right-0  bg-opacity-90 backdrop-blur-glass z-40 shadow-soft" style="background-color: #011c63;">
     <div class="container py-4 flex items-center justify-between">
       <a href="index.html" class="flex items-center space-x-2">
-        <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white">
-          <span class="font-display font-bold text-lg">TP</span>
-        </div>
-        <div>
-          <span class="font-display font-bold text-primary text-lg">Tuition Point</span>
-        </div>
+        <img src="assets/tp_logo.png" class="h-14" />
       </a>
       
       <!-- Desktop Menu -->
       <nav class="hidden md:flex items-center space-x-8">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link">About Us</a>
-        <a href="services.html" class="nav-link">Services</a>
-        <a href="team.html" class="nav-link">Our Team</a>
-        <a href="achievements.html" class="nav-link">Success Stories</a>
-        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="index.html" class="nav-link text-white">Home</a>
+        <a href="about.html" class="nav-link text-white">About Us</a>
+        <a href="services.html" class="nav-link text-white">Services</a>
+        <a href="team.html" class="nav-link text-white">Our Team</a>
+        <a href="achievements.html" class="nav-link text-white" >Success Stories</a>
+        <a href="contact.html" class="nav-link text-white">Contact</a>
         <a href="enrollment.html" class="btn btn-primary">Enroll Now</a>
       </nav>
       
       <!-- Mobile Menu Button -->
-      <button id="menu-toggle" class="md:hidden text-primary" aria-label="Open Menu">
+      <button id="menu-toggle" class="md:hidden text-white" aria-label="Open Menu">
         <i data-feather="menu" class="w-6 h-6"></i>
       </button>
     </div>
@@ -79,7 +74,7 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto">
         <h1 class="font-display text-4xl md:text-5xl font-bold mb-6 animate-slide-up">Success Stories & Achievements</h1>
-        <p class="text-lg text-muted animate-slide-up stagger-1">Celebrating the academic excellence and remarkable achievements of our students.</p>
+        <p class="text-lg   animate-slide-up  -1">Celebrating the academic excellence and remarkable achievements of our students.</p>
       </div>
     </div>
   </section>
@@ -95,7 +90,7 @@
                 <i data-feather="check-circle" class="w-8 h-8 text-accent"></i>
               </div>
               <h3 class="text-4xl font-display font-bold mb-2">100%</h3>
-              <p class="text-muted">Pass Rate in 2024</p>
+              <p class=" ">Pass Rate in 2024</p>
             </div>
             
             <div>
@@ -103,7 +98,7 @@
                 <i data-feather="award" class="w-8 h-8 text-accent"></i>
               </div>
               <h3 class="text-4xl font-display font-bold mb-2">93.4%</h3>
-              <p class="text-muted">Highest Score in CBSE</p>
+              <p class=" ">Highest Score in CBSE</p>
             </div>
             
             <div>
@@ -111,7 +106,7 @@
                 <i data-feather="users" class="w-8 h-8 text-accent"></i>
               </div>
               <h3 class="text-4xl font-display font-bold mb-2">100%</h3>
-              <p class="text-muted">School Entrance Success</p>
+              <p class=" ">School Entrance Success</p>
             </div>
           </div>
         </div>
@@ -124,16 +119,16 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="section-title animate-slide-up">Board Exam Results</h2>
-        <p class="text-lg text-muted animate-slide-up stagger-1">Our students consistently achieve excellent results across various education boards.</p>
+        <p class="text-lg   animate-slide-up  -1">Our students consistently achieve excellent results across various education boards.</p>
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Success Story 1 -->
-        <div class="card animate-slide-up stagger-1">
+        <div class="card animate-slide-up  -1">
           <div class="flex flex-col md:flex-row gap-6">
             <div class="md:w-1/3">
               <img 
-                src="https://images.unsplash.com/photo-1620117654333-c125fef82817?auto=format&fit=crop&w=300&q=80" 
+                src="assets/lalenthika.png" 
                 alt="Student Success Story" 
                 class="w-full h-auto rounded-lg"
               >
@@ -141,11 +136,11 @@
             <div class="md:w-2/3">
               <div class="flex items-center mb-3">
                 <span class="tag bg-accent text-white">CBSE Board</span>
-                <span class="ml-2 text-xs font-medium text-muted">2024</span>
+                <span class="ml-2 text-xs font-medium  ">2024</span>
               </div>
               <h3 class="text-xl font-display font-bold mb-2">Lalenthika's Success Story</h3>
               <p class="text-accent font-bold text-lg mb-2">93.4% in CBSE Board Exam</p>
-              <p class="text-muted mb-4">
+              <p class="  mb-4">
                 "The teachers at Tuition Point helped me understand complex concepts through practical examples. Their personalized attention and regular practice tests were crucial to my success."
               </p>
               <p class="text-sm text-primary font-medium">
@@ -156,11 +151,11 @@
         </div>
         
         <!-- Success Story 2 -->
-        <div class="card animate-slide-up stagger-2">
+        <div class="card animate-slide-up  -2">
           <div class="flex flex-col md:flex-row gap-6">
             <div class="md:w-1/3">
               <img 
-                src="https://images.unsplash.com/photo-1629872430082-93d8912bece9?auto=format&fit=crop&w=300&q=80" 
+                src="assets/keerthana.png" 
                 alt="Student Success Story" 
                 class="w-full h-auto rounded-lg"
               >
@@ -168,11 +163,11 @@
             <div class="md:w-2/3">
               <div class="flex items-center mb-3">
                 <span class="tag bg-accent text-white">CBSE Board</span>
-                <span class="ml-2 text-xs font-medium text-muted">2024</span>
+                <span class="ml-2 text-xs font-medium  ">2024</span>
               </div>
               <h3 class="text-xl font-display font-bold mb-2">Keerthana's Success Story</h3>
               <p class="text-accent font-bold text-lg mb-2">93% in CBSE Board Exam</p>
-              <p class="text-muted mb-4">
+              <p class="  mb-4">
                 "The study materials and mock tests at Tuition Point were extremely helpful. The teachers' guidance helped me organize my studies efficiently and focus on important topics."
               </p>
               <p class="text-sm text-primary font-medium">
@@ -190,16 +185,16 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="section-title animate-slide-up">Academic Excellence Across Curricula</h2>
-        <p class="text-lg text-muted animate-slide-up stagger-1">Our students excel in multiple educational systems and board examinations.</p>
+        <p class="text-lg   animate-slide-up  -1">Our students excel in multiple educational systems and board examinations.</p>
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="card animate-slide-up stagger-1">
+        <div class="card animate-slide-up  -1">
           <div class="w-14 h-14 rounded-full bg-accent bg-opacity-10 flex items-center justify-center mb-6">
             <i data-feather="book-open" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">CBSE Curriculum</h3>
-          <p class="text-muted mb-4">
+          <p class="  mb-4">
             100% pass rate with 70% of students scoring above 85% in the 2024 board examinations.
           </p>
           <ul class="space-y-2">
@@ -214,12 +209,12 @@
           </ul>
         </div>
         
-        <div class="card animate-slide-up stagger-2">
+        <div class="card animate-slide-up  -2">
           <div class="w-14 h-14 rounded-full bg-accent bg-opacity-10 flex items-center justify-center mb-6">
             <i data-feather="book-open" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">IGCSE Curriculum</h3>
-          <p class="text-muted mb-4">
+          <p class="  mb-4">
             Exceptional results with all students achieving A* to C grades in the 2024 examinations.
           </p>
           <ul class="space-y-2">
@@ -234,12 +229,12 @@
           </ul>
         </div>
         
-        <div class="card animate-slide-up stagger-3">
+        <div class="card animate-slide-up  -3">
           <div class="w-14 h-14 rounded-full bg-accent bg-opacity-10 flex items-center justify-center mb-6">
             <i data-feather="book-open" class="w-6 h-6 text-accent"></i>
           </div>
           <h3 class="text-xl font-display font-bold mb-3">IB Curriculum</h3>
-          <p class="text-muted mb-4">
+          <p class="  mb-4">
             Strong performance with an average score of 36 points in the 2024 IB Diploma Programme.
           </p>
           <ul class="space-y-2">
@@ -262,13 +257,13 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-3xl md:text-4xl font-display font-bold mb-6 animate-slide-up">School Entrance Success</h2>
-        <p class="text-lg text-white text-opacity-90 animate-slide-up stagger-1">
+        <p class="text-lg text-white text-opacity-90 animate-slide-up  -1">
           Our dedicated entrance exam preparation program has helped students gain admission to prestigious schools in Qatar.
         </p>
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div class="bg-white bg-opacity-10 rounded-xl p-6 animate-slide-up stagger-1">
+        <div class="bg-white bg-opacity-10 rounded-xl p-6 animate-slide-up  -1">
           <div class="flex items-center mb-4">
             <div class="w-12 h-12 rounded-full bg-white text-accent flex items-center justify-center mr-4">
               <i data-feather="check-circle" class="w-6 h-6"></i>
@@ -283,7 +278,7 @@
           </p>
         </div>
         
-        <div class="bg-white bg-opacity-10 rounded-xl p-6 animate-slide-up stagger-2">
+        <div class="bg-white bg-opacity-10 rounded-xl p-6 animate-slide-up  -2">
           <div class="flex items-center mb-4">
             <div class="w-12 h-12 rounded-full bg-white text-accent flex items-center justify-center mr-4">
               <i data-feather="check-circle" class="w-6 h-6"></i>
@@ -306,15 +301,15 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="section-title animate-slide-up">What Parents Say</h2>
-        <p class="text-lg text-muted animate-slide-up stagger-1">The trust and appreciation of our students' parents reflect our commitment to excellence.</p>
+        <p class="text-lg   animate-slide-up  -1">The trust and appreciation of our students' parents reflect our commitment to excellence.</p>
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="card animate-slide-up stagger-1">
+        <div class="card animate-slide-up  -1">
           <div class="flex flex-col items-center mb-4">
             <div class="w-16 h-16 rounded-full overflow-hidden mb-3">
               <img 
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80" 
+                src="assets/ponnu.png" 
                 alt="Parent" 
                 class="w-full h-full object-cover"
               >
@@ -330,16 +325,16 @@
               </div>
             </div>
           </div>
-          <p class="text-muted text-center">
+          <p class="  text-center">
             "I've seen remarkable improvement in my daughter's academic skills in just 3 months. The teachers are attentive and truly care about each student's progress."
           </p>
         </div>
         
-        <div class="card animate-slide-up stagger-2">
+        <div class="card animate-slide-up  -2">
           <div class="flex flex-col items-center mb-4">
             <div class="w-16 h-16 rounded-full overflow-hidden mb-3">
               <img 
-                src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=100&h=100&q=80" 
+                src="assets/aatha.png" 
                 alt="Parent" 
                 class="w-full h-full object-cover"
               >
@@ -355,16 +350,16 @@
               </div>
             </div>
           </div>
-          <p class="text-muted text-center">
+          <p class="  text-center">
             "The worksheets and teaching methods have been incredibly helpful. My child's confidence has grown tremendously since joining Tuition Point."
           </p>
         </div>
         
-        <div class="card animate-slide-up stagger-3">
+        <div class="card animate-slide-up  -3">
           <div class="flex flex-col items-center mb-4">
             <div class="w-16 h-16 rounded-full overflow-hidden mb-3">
               <img 
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=100&h=100&q=80" 
+                src="assets/kesavan.png" 
                 alt="Parent" 
                 class="w-full h-full object-cover"
               >
@@ -380,7 +375,7 @@
               </div>
             </div>
           </div>
-          <p class="text-muted text-center">
+          <p class="  text-center">
             "My kids gained admission to BPS thanks to the excellent coaching they received at Tuition Point. The teachers are knowledgeable and motivating."
           </p>
         </div>
@@ -393,8 +388,8 @@
     <div class="container">
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-3xl md:text-4xl font-display font-bold mb-6 animate-slide-up">Join Our Success Story</h2>
-        <p class="text-lg text-muted mb-8 animate-slide-up stagger-1">Take the first step toward academic excellence with Tuition Point Education Center.</p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up stagger-2">
+        <p class="text-lg   mb-8 animate-slide-up  -1">Take the first step toward academic excellence with Tuition Point Education Center.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up  -2">
           <a href="enrollment.html" class="btn btn-primary">
             Enroll Today
           </a>

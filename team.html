@@ -12,37 +12,33 @@
   
   <!-- Styles -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   
   <!-- Feather Icons -->
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body class="bg-surface">
-  <!-- Header -->
-  <header class="fixed top-0 left-0 right-0 bg-white bg-opacity-90 backdrop-blur-glass z-40 shadow-soft">
+  
+   <!-- Header -->
+   <header class="fixed top-0 left-0 right-0  bg-opacity-90 backdrop-blur-glass z-40 shadow-soft" style="background-color: #011c63;">
     <div class="container py-4 flex items-center justify-between">
       <a href="index.html" class="flex items-center space-x-2">
-        <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white">
-          <span class="font-display font-bold text-lg">TP</span>
-        </div>
-        <div>
-          <span class="font-display font-bold text-primary text-lg">Tuition Point</span>
-        </div>
+        <img src="assets/tp_logo.png" class="h-14" />
       </a>
       
       <!-- Desktop Menu -->
       <nav class="hidden md:flex items-center space-x-8">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link">About Us</a>
-        <a href="services.html" class="nav-link">Services</a>
-        <a href="team.html" class="nav-link">Our Team</a>
-        <a href="achievements.html" class="nav-link">Success Stories</a>
-        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="index.html" class="nav-link text-white">Home</a>
+        <a href="about.html" class="nav-link text-white">About Us</a>
+        <a href="services.html" class="nav-link text-white">Services</a>
+        <a href="team.html" class="nav-link text-white">Our Team</a>
+        <a href="achievements.html" class="nav-link text-white" >Success Stories</a>
+        <a href="contact.html" class="nav-link text-white">Contact</a>
         <a href="enrollment.html" class="btn btn-primary">Enroll Now</a>
       </nav>
       
       <!-- Mobile Menu Button -->
-      <button id="menu-toggle" class="md:hidden text-primary" aria-label="Open Menu">
+      <button id="menu-toggle" class="md:hidden text-white" aria-label="Open Menu">
         <i data-feather="menu" class="w-6 h-6"></i>
       </button>
     </div>
@@ -79,7 +75,7 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto">
         <h1 class="font-display text-4xl md:text-5xl font-bold mb-6 animate-slide-up">Our Team</h1>
-        <p class="text-lg text-muted animate-slide-up stagger-1">Meet our passionate educators dedicated to helping students excel academically.</p>
+        <p class="text-lg   animate-slide-up  -1">Meet our passionate educators dedicated to helping students excel academically.</p>
       </div>
     </div>
   </section>
@@ -89,14 +85,14 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="section-title animate-slide-up">Leadership</h2>
-        <p class="text-lg text-muted animate-slide-up stagger-1">The visionaries guiding our center's commitment to educational excellence.</p>
+        <p class="text-lg   animate-slide-up  -1">The visionaries guiding our center's commitment to educational excellence.</p>
       </div>
       
       <div class="max-w-4xl mx-auto">
         <div class="card flex flex-col md:flex-row items-center gap-8 animate-fade-in">
           <div class="w-48 h-48 rounded-full overflow-hidden flex-shrink-0 mb-6 md:mb-0">
             <img 
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&h=400&q=80" 
+              src="assets/chitra.png" 
               alt="Ms. Chitra Natarajan" 
               class="w-full h-full object-cover"
             >
@@ -104,8 +100,8 @@
           <div>
             <h3 class="text-2xl font-display font-bold mb-2">Ms. Chitra Natarajan</h3>
             <p class="text-accent font-medium mb-4">Managing Director</p>
-            <p class="text-muted mb-4">M.Sc., M.Phil., Biochemistry</p>
-            <p class="text-muted">
+            <p class="  mb-4">M.Sc., M.Phil., Biochemistry</p>
+            <p class=" ">
               With over 15 years of experience in education, Ms. Chitra Natarajan founded Tuition Point Education Center with a vision to provide personalized, high-quality education to students in Qatar. Her leadership has been instrumental in making the center a trusted name in education.
             </p>
           </div>
@@ -119,15 +115,15 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="section-title animate-slide-up">Our Teachers</h2>
-        <p class="text-lg text-muted animate-slide-up stagger-1">Experienced educators passionate about student success.</p>
+        <p class="text-lg   animate-slide-up  -1">Experienced educators passionate about student success.</p>
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Teacher 1 -->
-        <div class="card animate-slide-up stagger-1">
+        <div class="card animate-slide-up  -1">
           <div class="w-24 h-24 rounded-full overflow-hidden mx-auto mb-6">
             <img 
-              src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?auto=format&fit=crop&w=200&h=200&q=80" 
+              src="assets/revathi.png" 
               alt="Ms. Revathi Rathinam" 
               class="w-full h-full object-cover"
             >
@@ -135,18 +131,18 @@
           <div class="text-center">
             <h3 class="text-xl font-display font-bold mb-1">Ms. Revathi Rathinam</h3>
             <p class="text-accent font-medium mb-2">Chemistry Teacher</p>
-            <p class="text-sm text-muted mb-4">M.Sc., B.Ed., Chemistry</p>
-            <p class="text-muted">
+            <p class="text-sm   mb-4">M.Sc., B.Ed., Chemistry</p>
+            <p class=" ">
               Passionate about making complex chemistry concepts accessible and engaging for students of all levels.
             </p>
           </div>
         </div>
         
         <!-- Teacher 2 -->
-        <div class="card animate-slide-up stagger-2">
+        <div class="card animate-slide-up  -2">
           <div class="w-24 h-24 rounded-full overflow-hidden mx-auto mb-6">
             <img 
-              src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=200&h=200&q=80" 
+              src="assets/sandhya.png" 
               alt="Ms. Sandhya Manohar" 
               class="w-full h-full object-cover"
             >
@@ -154,18 +150,18 @@
           <div class="text-center">
             <h3 class="text-xl font-display font-bold mb-1">Ms. Sandhya Manohar</h3>
             <p class="text-accent font-medium mb-2">Primary Teacher</p>
-            <p class="text-sm text-muted mb-4">B.Com</p>
-            <p class="text-muted">
+            <p class="text-sm   mb-4">B.Com</p>
+            <p class=" ">
               Specializes in creating a nurturing learning environment for young learners to build strong foundations.
             </p>
           </div>
         </div>
         
         <!-- Teacher 3 -->
-        <div class="card animate-slide-up stagger-3">
+        <div class="card animate-slide-up  -3">
           <div class="w-24 h-24 rounded-full overflow-hidden mx-auto mb-6">
             <img 
-              src="https://images.unsplash.com/photo-1601288496920-b6154fe3626a?auto=format&fit=crop&w=200&h=200&q=80" 
+              src="assets/vijayarani.png" 
               alt="Ms. Vijayarani" 
               class="w-full h-full object-cover"
             >
@@ -173,18 +169,18 @@
           <div class="text-center">
             <h3 class="text-xl font-display font-bold mb-1">Ms. Vijayarani</h3>
             <p class="text-accent font-medium mb-2">Primary Teacher</p>
-            <p class="text-sm text-muted mb-4">B.A., B.Ed.</p>
-            <p class="text-muted">
+            <p class="text-sm   mb-4">B.A., B.Ed.</p>
+            <p class=" ">
               Focuses on developing critical thinking skills and creativity in primary school students.
             </p>
           </div>
         </div>
         
         <!-- Teacher 4 -->
-        <div class="card animate-slide-up stagger-1">
+        <div class="card animate-slide-up  -1">
           <div class="w-24 h-24 rounded-full overflow-hidden mx-auto mb-6">
             <img 
-              src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=200&h=200&q=80" 
+              src="assets/samrin.png" 
               alt="Ms. Samrin Bano" 
               class="w-full h-full object-cover"
             >
@@ -192,18 +188,18 @@
           <div class="text-center">
             <h3 class="text-xl font-display font-bold mb-1">Ms. Samrin Bano</h3>
             <p class="text-accent font-medium mb-2">Mathematics Teacher</p>
-            <p class="text-sm text-muted mb-4">B.Sc., B.Ed., Mathematics</p>
-            <p class="text-muted">
+            <p class="text-sm   mb-4">B.Sc., B.Ed., Mathematics</p>
+            <p class=" ">
               Known for making mathematics enjoyable and accessible through innovative teaching methods.
             </p>
           </div>
         </div>
         
         <!-- Teacher 5 -->
-        <div class="card animate-slide-up stagger-2">
+        <div class="card animate-slide-up  -2">
           <div class="w-24 h-24 rounded-full overflow-hidden mx-auto mb-6">
             <img 
-              src="https://images.unsplash.com/photo-1548449112-96a38a643324?auto=format&fit=crop&w=200&h=200&q=80" 
+              src="assets/salomi.png" 
               alt="Ms. Salomi" 
               class="w-full h-full object-cover"
             >
@@ -211,18 +207,18 @@
           <div class="text-center">
             <h3 class="text-xl font-display font-bold mb-1">Ms. Salomi</h3>
             <p class="text-accent font-medium mb-2">Mathematics & Physics Teacher</p>
-            <p class="text-sm text-muted mb-4">B.E., B.Ed., Mathematics</p>
-            <p class="text-muted">
+            <p class="text-sm   mb-4">B.E., B.Ed., Mathematics</p>
+            <p class=" ">
               Combines engineering background with teaching expertise to make STEM subjects relatable and practical.
             </p>
           </div>
         </div>
         
         <!-- Teacher 6 -->
-        <div class="card animate-slide-up stagger-3">
+        <div class="card animate-slide-up  -3">
           <div class="w-24 h-24 rounded-full overflow-hidden mx-auto mb-6">
             <img 
-              src="https://images.unsplash.com/photo-1594745561149-2211ca8c5d98?auto=format&fit=crop&w=200&h=200&q=80" 
+              src="assets/nimmi.png" 
               alt="Ms. Nimmi Mohan" 
               class="w-full h-full object-cover"
             >
@@ -230,8 +226,8 @@
           <div class="text-center">
             <h3 class="text-xl font-display font-bold mb-1">Ms. Nimmi Mohan</h3>
             <p class="text-accent font-medium mb-2">Biology Teacher</p>
-            <p class="text-sm text-muted mb-4">M.Sc., B.Ed., Microbiology</p>
-            <p class="text-muted">
+            <p class="text-sm   mb-4">M.Sc., B.Ed., Microbiology</p>
+            <p class=" ">
               Brings biology to life through engaging experiments and real-world applications of scientific concepts.
             </p>
           </div>
@@ -252,7 +248,7 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="section-title animate-slide-up">Support Staff</h2>
-        <p class="text-lg text-muted animate-slide-up stagger-1">The team that ensures smooth operations and excellent service.</p>
+        <p class="text-lg   animate-slide-up  -1">The team that ensures smooth operations and excellent service.</p>
       </div>
       
       <div class="max-w-2xl mx-auto">
@@ -260,7 +256,7 @@
           <div class="flex flex-col sm:flex-row items-center gap-6">
             <div class="w-24 h-24 rounded-full overflow-hidden flex-shrink-0">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&h=200&q=80" 
+                src="assets/Imran.png" 
                 alt="Mr. Imran Ali" 
                 class="w-full h-full object-cover"
               >
@@ -268,8 +264,8 @@
             <div>
               <h3 class="text-xl font-display font-bold mb-1 text-center sm:text-left">Mr. Imran Ali</h3>
               <p class="text-accent font-medium mb-2 text-center sm:text-left">Public Relations Officer</p>
-              <p class="text-sm text-muted mb-4 text-center sm:text-left">M.B.A., Human Resource</p>
-              <p class="text-muted">
+              <p class="text-sm   mb-4 text-center sm:text-left">M.B.A., Human Resource</p>
+              <p class=" ">
                 Handles administrative affairs and serves as the first point of contact for parents and students seeking information about our programs.
               </p>
             </div>
@@ -284,10 +280,10 @@
     <div class="container">
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-3xl md:text-4xl font-display font-bold mb-6 animate-slide-up">Join Our Team</h2>
-        <p class="text-lg text-white text-opacity-90 mb-8 animate-slide-up stagger-1">
+        <p class="text-lg text-white text-opacity-90 mb-8 animate-slide-up  -1">
           We're always looking for passionate educators to join our team. If you're dedicated to making a difference in students' lives, we'd love to hear from you.
         </p>
-        <a href="contact.html" class="btn bg-white text-accent hover:bg-opacity-90 animate-slide-up stagger-2">
+        <a href="contact.html" class="btn bg-white text-accent hover:bg-opacity-90 animate-slide-up  -2">
           Contact Us
         </a>
       </div>
